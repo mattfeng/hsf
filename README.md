@@ -1,8 +1,8 @@
 # CSAW High School Forensics (HSF) Writeups and Documentation
 
 ## Team Info
-Team Name: **chicken nugger**
-School: **Poolesville High School**
+Team Name: **chicken nugger** <br />
+School: **Poolesville High School** <br />
 
 ## Scoreboard
 
