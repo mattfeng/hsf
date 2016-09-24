@@ -10,7 +10,6 @@ Description:
 Hint:
 
 Flag:
-
 ```
 
 ```
@@ -25,86 +24,96 @@ Flag:
 
 ## Steganography
 
-### ???
-#### Problem Description
+```
+Problem: ??? (1)
 
-#### Hint
+Description:
 
-#### Flag
+Hint:
 
----
+Flag:
+```
 
 ## Reversing
 
-### ???
-#### Problem Description
+```
+Problem: ??? (1)
 
-#### Hint
+Description:
 
-#### Flag
+Hint:
 
----
+Flag:
+```
 
 ## Cryptography
 
-### ???
-#### Problem Description
+```
+Problem: ??? (1)
 
-#### Hint
+Description:
 
-#### Flag
+Hint:
 
----
+Flag:
+```
 
 ## Disk Forensics
 
-### ???
-#### Problem Description
+```
+Problem: ??? (1)
 
-#### Hint
+Description:
 
-#### Flag
+Hint:
 
----
+Flag:
+```
 
 ## Networking
 
-### ???
-#### Problem Description
+```
+Problem: ??? (1)
 
-#### Hint
+Description:
 
-#### Flag
+Hint:
 
----
+Flag:
+```
 
 ## Photo Forensics
 
-### ???
-#### Problem Description
+```
+Problem: ??? (1)
 
-#### Hint
+Description:
 
-#### Flag
+Hint:
 
----
+Flag:
+```
 
 ## File Forensics
 
-### ???
-#### Problem Description
+```
+Problem: ??? (1)
 
-#### Hint
+Description:
 
-#### Flag
+Hint:
 
----
+Flag:
+```
 
 ## Reconnaisance
 
-### ???
-#### Problem Description
+```
+Problem: ??? (1)
 
-#### Hint
+Description:
 
-#### Flag
+Hint:
+
+Flag:
+```
