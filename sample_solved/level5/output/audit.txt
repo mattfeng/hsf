@@ -1,0 +1,26 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Sep 25 14:27:39 2016
+Invocation: foremost -t all out.img 
+Output directory: /home/pwn/hsf/sample/level5/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: out.img
+Start: Sun Sep 25 14:27:39 2016
+Length: 100 MB (104857600 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00021210.mov 	     478 KB 	   10859552 	 
+1:	00000594.pptx 	       4 MB 	     304128 	 
+2:	00010174.zip 	       5 MB 	    5209088 	 
+Finish: Sun Sep 25 14:27:42 2016
+
+3 FILES EXTRACTED
+	
+mov:= 1
+zip:= 2
+------------------------------------------------------------------
+
+Foremost finished at Sun Sep 25 14:27:42 2016

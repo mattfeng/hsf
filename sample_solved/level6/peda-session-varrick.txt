@@ -1,0 +1,3 @@
+break julie_do_the_thing
+break *0x08048ee7
+
