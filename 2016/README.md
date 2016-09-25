@@ -106,7 +106,7 @@ Hint:
 Flag:
 ```
 
-## Reconnaisance
+## Reconnaissance
 
 ```
 Problem: ??? (1)
