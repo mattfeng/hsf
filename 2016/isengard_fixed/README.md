@@ -21,7 +21,7 @@ Challenge by Gus Naughton
 
 ``make obj-ia32/inscount0.so TARGET=ia32``
 
-```
+```c
 #include <stdio.h>
 
 long ptrace(int x, int y, int z)
