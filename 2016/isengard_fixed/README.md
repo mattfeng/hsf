@@ -73,8 +73,91 @@ woaw%
 It's quite interesting how the password isn't displayed as you type it. Anyways, after giving the password, we are able to enter some characters, and then the program exits with ``woaw``. Let's take a closer look with ``strace``.
 
 
+```bash
+$ strace ./isengard 
+execve("./isengard", ["./isengard"], [/* 77 vars */]) = 0
+[ Process PID=29929 runs in 32 bit mode. ]
+write(1, "starting stub ...\n", 18starting stub ...
+)     = 18
+open("/dev/urandom", O_RDONLY)          = 3
+read(3, "N%\306\341\211\276\3511\370\307lT\n\265*\262f\254\304#i\336\233\333\372\324\352\1[\177\232\\", 32) = 32
+close(3)                                = 0
+getpid()                                = 29929
+... snip ...
+getpid()                                = 29929
+write(1, "                    .___        "..., 1627                    .___                                             .___        ____ 
+                    |   | ______ ____   ____    _________ _______  __| _/ ___  _/_   |
+                    |   |/  ___// __ \ /    \  / ___\__  \\_  __ \/ __ |  \  \/ /|   |
+                    |   |\___ \\  ___/|   |  \/ /_/  > __ \|  | \/ /_/ |   \   / |   |
+                    |___/____  >\___  >___|  /\___  (____  /__|  \____ |    \_/  |___|
+                             \/     \/     \//_____/     \/           \/              
+... snip ...
+) = 1627
+write(1, "Password: ", 10Password: )              = 10
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_START or SNDRV_TIMER_IOCTL_TREAD or TCSETS, {B38400 opost isig icanon -echo ...}) = 0
+read(0, "y", 1)                         = 1
+read(0, "o", 1)                         = 1
+read(0, "u", 1)                         = 1
+read(0, "s", 1)                         = 1
+read(0, "h", 1)                         = 1
+read(0, "a", 1)                         = 1
+read(0, "l", 1)                         = 1
+read(0, "l", 1)                         = 1
+read(0, "n", 1)                         = 1
+read(0, "o", 1)                         = 1
+read(0, "t", 1)                         = 1
+read(0, "p", 1)                         = 1
+read(0, "a", 1)                         = 1
+read(0, "s", 1)                         = 1
+read(0, "s", 1)                         = 1
+read(0, "\n", 1)                        = 1
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon -echo ...}) = 0
+ioctl(0, SNDCTL_TMR_START or SNDRV_TIMER_IOCTL_TREAD or TCSETS, {B38400 opost isig icanon echo ...}) = 0
+write(1, "\n", 1
+)                       = 1
+mmap2(0x8048000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x8048000
+mmap2(0x8049000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x8049000
+open("/lib/ld-linux.so.2", O_RDONLY)    = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\300\n\0\0004\0\0\0"..., 1024) = 1024
+mmap2(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xfffffffff77be000
+mmap2(0xf77be000, 139264, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0xfffffffff77be000
+mmap2(0xf77e1000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0x22000) = 0xfffffffff77e1000
+close(3)                                = 0
+munmap(0xda80000, 12288)                = 0
+brk(0)                                  = 0xe05f000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xfffffffff77bc000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=177972, ...}) = 0
+mmap2(NULL, 177972, PROT_READ, MAP_PRIVATE, 3, 0) = 0xfffffffff7790000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\207\1\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1771368, ...}) = 0
+mmap2(NULL, 1780252, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xfffffffff75dd000
+mmap2(0xf778a000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ac000) = 0xfffffffff778a000
+mmap2(0xf778d000, 10780, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xfffffffff778d000
+close(3)                                = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xfffffffff75dc000
+set_thread_area({entry_number:-1, base_addr:0xf75dc940, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0 (entry_number:12)
+mprotect(0xf778a000, 8192, PROT_READ)   = 0
+mprotect(0x8049000, 4096, PROT_READ)    = 0
+mprotect(0xf77e1000, 4096, PROT_READ)   = 0
+munmap(0xf7790000, 177972)              = 0
+ptrace(PTRACE_TRACEME, 0, 0, 0)         = -1 EPERM (Operation not permitted)
+fstat64(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+brk(0)                                  = 0xe05f000
+brk(0xe080000)                          = 0xe080000
+write(1, "Rip fam\n", 8Rip fam
+)                = 8
+exit_group(57005)                       = ?
++++ exited with 173 +++
+```
 
-It appears that they are using some sort of anti-debugging technique which prevents us from attaching a debugger to the process. One of the most common of these techiques is self-debugging, also known as ptrace anti-debugging. The idea is that ``ptrace`` can only be run on a binary once, so if the program executes ``ptrace`` on itself, then no debugger can do so. We can get around this by supplying the binary with a fake ``ptrace``, however.
+It appears that they are using some sort of anti-debugging technique which prevents us from attaching a debugger to the process. One of the most common of these techiques is self-debugging, also known as **ptrace anti-debugging**. The idea is that ``ptrace`` can only be run on a binary once, so if the program executes ``ptrace`` on itself, then no debugger can do so. We see that this is the case with this binary, as it calls ``ptrace`` on itself. We can get around this by supplying the binary with a fake ``ptrace``, however.
 
 **fake.c**
 ```c
