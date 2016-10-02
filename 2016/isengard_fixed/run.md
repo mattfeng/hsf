@@ -1,3 +1,5 @@
+**Side note:** It says failed because I used a slightly different script that hardcoded in the length of the flag (38), but I started the script with ``flag``, so it continued past the length of the flag. The new script should not have that problem.
+
 ```
 [i] trying: 'A' 336657114
 [i] trying: 'B' 336657114
