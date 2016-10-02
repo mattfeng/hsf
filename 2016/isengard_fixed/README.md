@@ -16,15 +16,17 @@ Challenge by Gus Naughton
 
 ## Write-up
 
+To solve this challenge I used Intel's "Pin" tool, which can be found at the following links.
 * [https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool] (https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool)
 * [http://software.intel.com/sites/landingpage/pintool/downloads/pin-3.0-76991-gcc-linux.tar.gz] (http://software.intel.com/sites/landingpage/pintool/downloads/pin-3.0-76991-gcc-linux.tar.gz)
+One of the features Pin offers is its ability to count the number of instructions executed for a running process.
 
 ```bash
-make obj-ia32/inscount0.so TARGET=ia32
+$ make obj-ia32/inscount0.so TARGET=ia32
 ```
 
 ```bash
-gcc -shared -fPIC -o fake.so fake.c
+$ gcc -shared -fPIC -o fake.so fake.c
 ```
 
 ```c
@@ -38,7 +40,7 @@ long ptrace(int x, int y, int z)
 ```
 
 ```bash
-LD_PRELOAD=./fake.so ./isengard
+$ LD_PRELOAD=./fake.so ./isengard
 ```
 
 ### Flag
@@ -52,6 +54,7 @@ LD_PRELOAD=./fake.so ./isengard
 * [https://0x44696f21.wordpress.com/2015/10/24/entry-language-defcamp-ctf-quals-2015-re100/] (https://0x44696f21.wordpress.com/2015/10/24/entry-language-defcamp-ctf-quals-2015-re100/)
 * [https://parsiya.net/blog/2014-12-08-pin-adventures---chapter-1---pinsolver-mk1/] (https://parsiya.net/blog/2014-12-08-pin-adventures---chapter-1---pinsolver-mk1/)
 * [http://manoharvanga.com/hackme/] (http://manoharvanga.com/hackme/)
+* [https://www.aldeid.com/wiki/Ptrace-anti-debugging] (https://www.aldeid.com/wiki/Ptrace-anti-debugging)
 
 ### Other write-ups
 * (none yet)
