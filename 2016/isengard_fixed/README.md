@@ -19,7 +19,13 @@ Challenge by Gus Naughton
 * [https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool] (https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool)
 * [http://software.intel.com/sites/landingpage/pintool/downloads/pin-3.0-76991-gcc-linux.tar.gz] (http://software.intel.com/sites/landingpage/pintool/downloads/pin-3.0-76991-gcc-linux.tar.gz)
 
-``make obj-ia32/inscount0.so TARGET=ia32``
+```bash
+make obj-ia32/inscount0.so TARGET=ia32
+```
+
+```bash
+gcc -shared -fPIC -o fake.so fake.c
+```
 
 ```c
 #include <stdio.h>
@@ -29,6 +35,10 @@ long ptrace(int x, int y, int z)
     printf(":)\n");
     return 0;
 }
+```
+
+```bash
+LD_PRELOAD=./fake.so ./isengard
 ```
 
 ### Flag
@@ -41,6 +51,7 @@ long ptrace(int x, int y, int z)
 * [https://github.com/wagiro/pintool] (https://github.com/wagiro/pintool)
 * [https://0x44696f21.wordpress.com/2015/10/24/entry-language-defcamp-ctf-quals-2015-re100/] (https://0x44696f21.wordpress.com/2015/10/24/entry-language-defcamp-ctf-quals-2015-re100/)
 * [https://parsiya.net/blog/2014-12-08-pin-adventures---chapter-1---pinsolver-mk1/] (https://parsiya.net/blog/2014-12-08-pin-adventures---chapter-1---pinsolver-mk1/)
+* [http://manoharvanga.com/hackme/] (http://manoharvanga.com/hackme/)
 
 ### Other write-ups
 * (none yet)
