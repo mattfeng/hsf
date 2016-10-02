@@ -310,9 +310,9 @@ exit_group(0)                           = ?
 +++ exited with 0 +++
 ```
 
-Now we can get a closer look at how our input is read into the program.
+Now we can get a closer look at how our input is read into the program. It looks like our input is read into the program 2 bytes at a time, probably as one character and one newline, for 38 times, and then an output is generated based on our input. In this case, ``woaw`` is the output (which likely corresponds to 'incorrect'). I assumed that the 38 characters read into the program were the flag, and, if the flag was correct, an output different from ``woaw`` would be generated.
 
-To solve this challenge I used Intel's "Pin" tool, which can be found at the following links.
+I decided to try solving the challenge with Intel's "Pin" tool, which can be found at the following links.
 
 * [https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool] (https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool)
 * [http://software.intel.com/sites/landingpage/pintool/downloads/pin-3.0-76991-gcc-linux.tar.gz] (http://software.intel.com/sites/landingpage/pintool/downloads/pin-3.0-76991-gcc-linux.tar.gz)
@@ -336,6 +336,105 @@ Since ``isengard`` takes in input from the user, we have to redirect input from 
 $ ../../../../pin -t inscount0.so -- ~/hsf/2016/isengard_fixed/isengard < input
 ```
 
+The reason Pin's instruction count tool is helpful is that it can be used to launch a **side-channel attack**. Most string comparison checks are character by character. If there is a mismatch in one of the characters, then the comparison ends there and the program continues (or exits). However, because of this premature breaking, there will be fewer instructions executed when the strings do not match. By counting the number of instructions executed, and checking when that number increases, we can determine what the correct input is.
+
+Here is some code to do that:
+```python
+#!/usr/bin/env python
+
+import string
+import subprocess as sp
+import os
+
+def get_inscount():
+    return int(open('inscount.out').read().strip().split(' ')[1])
+
+def mk_input(known):
+    ostream = open('input', 'w')
+    input = known + 'A' * (38 - len(known))
+    input = '\n'.join(list(input))
+    # print input
+    ostream.write('youshallnotpass\n')
+    ostream.write(input + '\n')
+    ostream.close()
+
+search_space = '{}' + string.uppercase + string.lowercase + string.digits + '-_'
+
+FNULL = open(os.devnull, 'w')
+
+#last_max = 336657114
+last_max = 336657142
+
+known = 'flag'
+
+while len(known) < 38:
+    for c in search_space:
+        tmp_known = known + c
+        mk_input(tmp_known)
+        cmd = '../../../../pin -t inscount0.so -- ~/hsf/2016/isengard_fixed/isengard < input'
+        sp.call(cmd, shell=True, stdout=FNULL, stderr=sp.STDOUT)
+        print '[i] trying: %r' % tmp_known, get_inscount()
+        if get_inscount() > last_max:
+            last_max = get_inscount()
+            print tmp_known, get_inscount()
+            known = tmp_known
+            break
+    else:
+        print 'FAILED'
+        print 'known so far: %r' % known
+        quit()
+
+print 'ANSWER: ', known
+```
+
+Here is a snippet of the output (full run can be seen in [run.md] (run.md))
+```
+$ ./test.py
+[i] trying: 'flag{' 336657149
+flag{ 336657149
+[i] trying: 'flag{a' 336657149
+[i] trying: 'flag{b' 336657149
+[i] trying: 'flag{c' 336657149
+[i] trying: 'flag{d' 336657149
+[i] trying: 'flag{e' 336657149
+[i] trying: 'flag{f' 336657149
+[i] trying: 'flag{g' 336657149
+[i] trying: 'flag{h' 336657149
+[i] trying: 'flag{i' 336657149
+[i] trying: 'flag{j' 336657149
+[i] trying: 'flag{k' 336657149
+[i] trying: 'flag{l' 336657149
+[i] trying: 'flag{m' 336657149
+[i] trying: 'flag{n' 336657149
+[i] trying: 'flag{o' 336657156
+flag{o 336657156
+[i] trying: 'flag{oa' 336657156
+[i] trying: 'flag{ob' 336657156
+[i] trying: 'flag{oc' 336657156
+[i] trying: 'flag{od' 336657156
+[i] trying: 'flag{oe' 336657156
+[i] trying: 'flag{of' 336657156
+[i] trying: 'flag{og' 336657156
+[i] trying: 'flag{oh' 336657163
+flag{oh 336657163
+[i] trying: 'flag{oh{' 336657163
+[i] trying: 'flag{oh}' 336657163
+[i] trying: 'flag{ohA' 336657163
+... snip ...
+[i] trying: 'flag{oh_man_such_many_ant3_d00b00ga' 336657352
+[i] trying: 'flag{oh_man_such_many_ant3_d00b00gb' 336657352
+[i] trying: 'flag{oh_man_such_many_ant3_d00b00gc' 336657352
+[i] trying: 'flag{oh_man_such_many_ant3_d00b00gd' 336657352
+[i] trying: 'flag{oh_man_such_many_ant3_d00b00ge' 336657359
+flag{oh_man_such_many_ant3_d00b00ge 336657359
+... snip ...
+[i] trying: 'flag{oh_man_such_many_ant3_d00b00gerr' 336657366
+[i] trying: 'flag{oh_man_such_many_ant3_d00b00gers' 336657373
+flag{oh_man_such_many_ant3_d00b00gers 336657373
+[i] trying: 'flag{oh_man_such_many_ant3_d00b00gers{' 336657373
+[i] trying: 'flag{oh_man_such_many_ant3_d00b00gers}' 336657379
+flag{oh_man_such_many_ant3_d00b00gers} 336657379
+```
 
 ### Flag
 
