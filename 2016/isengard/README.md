@@ -23,4 +23,8 @@ Challenge by Gus Naughton
 
 ## Other write-ups and resources
 
+### Resources
+* [https://github.com/wagiro/pintool] (https://github.com/wagiro/pintool)
+
+### Other write-ups
 * (none yet)
