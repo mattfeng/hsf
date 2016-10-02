@@ -19,6 +19,18 @@ Challenge by Gus Naughton
 * [https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool] (https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool)
 * [http://software.intel.com/sites/landingpage/pintool/downloads/pin-3.0-76991-gcc-linux.tar.gz] (http://software.intel.com/sites/landingpage/pintool/downloads/pin-3.0-76991-gcc-linux.tar.gz)
 
+``make obj-ia32/inscount0.so TARGET=ia32``
+
+```
+#include <stdio.h>
+
+long ptrace(int x, int y, int z)
+{
+    printf(":)\n");
+    return 0;
+}
+```
+
 ### Flag
 
 ``flag{oh_man_such_many_ant3_d00b00gers}``
