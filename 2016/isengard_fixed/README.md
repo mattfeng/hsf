@@ -17,8 +17,10 @@ Challenge by Gus Naughton
 ## Write-up
 
 To solve this challenge I used Intel's "Pin" tool, which can be found at the following links.
+
 * [https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool] (https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool)
 * [http://software.intel.com/sites/landingpage/pintool/downloads/pin-3.0-76991-gcc-linux.tar.gz] (http://software.intel.com/sites/landingpage/pintool/downloads/pin-3.0-76991-gcc-linux.tar.gz)
+
 One of the features Pin offers is its ability to count the number of instructions executed for a running process.
 
 ```bash
