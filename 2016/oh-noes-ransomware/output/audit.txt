@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Wed Sep 28 19:03:00 2016
+Invocation: foremost -t all csaw.doc 
+Output directory: /home/pwn/hsf/2016/oh-noes-ransomware/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: csaw.doc
+Start: Wed Sep 28 19:03:00 2016
+Length: 101 KB (103424 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.ole 	      26 KB 	          0 	 
+1:	00000012.zip 	      18 KB 	       6428 	 
+Finish: Wed Sep 28 19:03:00 2016
+
+2 FILES EXTRACTED
+	
+ole:= 1
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Wed Sep 28 19:03:00 2016
