@@ -178,6 +178,139 @@ $ gcc -m32 -shared -fPIC -o fake.so fake.c
 $ LD_PRELOAD=./fake.so ./isengard
 ```
 
+Now when we run ``strace``, we can continue debugging past the ``ptrace`` call.
+
+```bash
+$ strace -E LD_PRELOAD=./fake.so ./isengard
+execve("./isengard", ["./isengard"], [/* 78 vars */]) = 0
+[ Process PID=30187 runs in 32 bit mode. ]
+write(1, "starting stub ...\n", 18starting stub ...
+)     = 18
+open("/dev/urandom", O_RDONLY)          = 3
+read(3, "\vB(\3274\274\263@\3132\256n\324q\22.\327r\3173u\r,g\224v\220Zp\21\310\310", 32) = 32
+close(3)                                = 0
+getpid()                                = 30187
+... snip ...
+getpid()                                = 30187
+... snip ...
+write(1, "Password: ", 10Password: )              = 10
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_START or SNDRV_TIMER_IOCTL_TREAD or TCSETS, {B38400 opost isig icanon -echo ...}) = 0
+read(0, "y", 1)                         = 1
+read(0, "o", 1)                         = 1
+read(0, "u", 1)                         = 1
+... snip ...
+read(0, "s", 1)                         = 1
+read(0, "s", 1)                         = 1
+read(0, "\n", 1)                        = 1
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon -echo ...}) = 0
+ioctl(0, SNDCTL_TMR_START or SNDRV_TIMER_IOCTL_TREAD or TCSETS, {B38400 opost isig icanon echo ...}) = 0
+write(1, "\n", 1
+)                       = 1
+mmap2(0x8048000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x8048000
+mmap2(0x8049000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x8049000
+open("/lib/ld-linux.so.2", O_RDONLY)    = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\300\n\0\0004\0\0\0"..., 1024) = 1024
+mmap2(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xfffffffff77b0000
+mmap2(0xf77b0000, 139264, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0xfffffffff77b0000
+mmap2(0xf77d3000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0x22000) = 0xfffffffff77d3000
+close(3)                                = 0
+munmap(0xda80000, 12288)                = 0
+brk(0)                                  = 0xf165000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xfffffffff77ae000
+open("./fake.so", O_RDONLY|O_CLOEXEC)   = 3
+read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\320\3\0\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=4708, ...}) = 0
+getcwd("/home/pwn/hsf/2016/isengard_fixed", 128) = 34
+mmap2(NULL, 5888, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xfffffffff77ac000
+mmap2(0xf77ad000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0xfffffffff77ad000
+close(3)                                = 0
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat64(3, {st_mode=S_IFREG|0644, st_size=177972, ...}) = 0
+mmap2(NULL, 177972, PROT_READ, MAP_PRIVATE, 3, 0) = 0xfffffffff7780000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/i386-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\207\1\0004\0\0\0"..., 512) = 512
+fstat64(3, {st_mode=S_IFREG|0755, st_size=1771368, ...}) = 0
+mmap2(NULL, 1780252, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xfffffffff75cd000
+mmap2(0xf777a000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ac000) = 0xfffffffff777a000
+mmap2(0xf777d000, 10780, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xfffffffff777d000
+close(3)                                = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xfffffffff75cc000
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xfffffffff75cb000
+set_thread_area({entry_number:-1, base_addr:0xf75cb700, limit:1048575, seg_32bit:1, contents:0, read_exec_only:0, limit_in_pages:1, seg_not_present:0, useable:1}) = 0 (entry_number:12)
+mprotect(0xf777a000, 8192, PROT_READ)   = 0
+mprotect(0x8049000, 4096, PROT_READ)    = 0
+mprotect(0xf77d3000, 4096, PROT_READ)   = 0
+munmap(0xf7780000, 177972)              = 0
+fstat64(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+brk(0)                                  = 0xf165000
+brk(0xf186000)                          = 0xf186000
+write(1, ":)\n", 3:)
+)                     = 3
+read(0, this
+"th", 2)                        = 2
+read(0, "is", 2)                        = 2
+read(0, "\n", 2)                        = 1
+read(0, is
+"is", 2)                        = 2
+read(0, "\n", 2)                        = 1
+read(0, a
+"a\n", 2)                       = 2
+read(0, test
+"te", 2)                        = 2
+read(0, "st", 2)                        = 2
+read(0, "\n", 2)                        = 1
+read(0, what
+"wh", 2)                        = 2
+read(0, "at", 2)                        = 2
+read(0, "\n", 2)                        = 1
+read(0, am
+"am", 2)                        = 2
+read(0, "\n", 2)                        = 1
+read(0, i
+"i\n", 2)                       = 2
+read(0, really
+"re", 2)                        = 2
+read(0, "al", 2)                        = 2
+read(0, "ly", 2)                        = 2
+read(0, "\n", 2)                        = 1
+read(0, doing
+"do", 2)                        = 2
+read(0, "in", 2)                        = 2
+read(0, "g\n", 2)                       = 2
+read(0, now
+"no", 2)                        = 2
+read(0, "w\n", 2)                       = 2
+read(0, ???
+"??", 2)                        = 2
+read(0, "?\n", 2)                       = 2
+read(0, what
+"wh", 2)                        = 2
+read(0, "at", 2)                        = 2
+read(0, "\n", 2)                        = 1
+read(0, what
+"wh", 2)                        = 2
+read(0, "at", 2)                        = 2
+read(0, "\n", 2)                        = 1
+read(0, wat
+"wa", 2)                        = 2
+read(0, "t\n", 2)                       = 2
+read(0, vat
+"va", 2)                        = 2
+read(0, "t\n", 2)                       = 2
+read(0, hmm
+"hm", 2)                        = 2
+read(0, "m\n", 2)                       = 2
+write(1, "woaw", 4woaw)                     = 4
+exit_group(0)                           = ?
++++ exited with 0 +++
+```
+
+Now we can get a closer look at how our input is read into the program.
 
 To solve this challenge I used Intel's "Pin" tool, which can be found at the following links.
 
