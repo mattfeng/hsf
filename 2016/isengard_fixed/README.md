@@ -5,10 +5,10 @@
 **Solves:** 5
 **Description:**
 
-Far over the CISC-y instruction mold
-To freezers deep and arches old
-We must avoid the ere break 0day
-To seek the lost flag behind the fold.
+Far over the CISC-y instruction mold <br />
+To freezers deep and arches old <br />
+We must avoid the ere break 0day <br />
+To seek the lost flag behind the fold. <br />
 
 [https://s3.amazonaws.com/hsf2016/isengard] (https://s3.amazonaws.com/hsf2016/isengard)
 
