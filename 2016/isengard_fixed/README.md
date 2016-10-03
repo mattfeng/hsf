@@ -157,7 +157,7 @@ exit_group(57005)                       = ?
 +++ exited with 173 +++
 ```
 
-It appears that they are using some sort of anti-debugging technique which prevents us from attaching a debugger to the process. One of the most common of these techiques is self-debugging, also known as **ptrace anti-debugging**. The idea is that ``ptrace`` can only be run on a binary once, so if the program executes ``ptrace`` on itself, then no debugger can do so. We see that this is the case with this binary, as it calls ``ptrace`` on itself. We can get around this by supplying the binary with a fake ``ptrace``, however.
+It appears that they are using some sort of anti-debugging technique which prevents us from attaching a debugger to the process. One of the most common of these techniques is self-debugging, also known as **ptrace anti-debugging**. The idea is that ``ptrace`` can only be run on a binary once, so if the program executes ``ptrace`` on itself, then no debugger can do so. We see that this is the case with this binary, as it calls ``ptrace`` on itself. We can get around this by supplying the binary with a fake ``ptrace``, however.
 
 **fake.c**
 ```c
@@ -336,7 +336,7 @@ Since ``isengard`` takes in input from the user, we have to redirect input from 
 $ ../../../../pin -t inscount0.so -- ~/hsf/2016/isengard_fixed/isengard < input
 ```
 
-The reason Pin's instruction count tool is helpful is that it can be used to launch a **side-channel attack**. Most string comparison checks are character by character. If there is a mismatch in one of the characters, then the comparison ends there and the program continues (or exits). However, because of this premature breaking, there will be fewer instructions executed when the strings do not match. By counting the number of instructions executed, and checking when that number increases, we can determine what the correct input is.
+The reason Pin's instruction count tool is helpful is that it can be used to launch a **side-channel attack**. Most string comparison checks are executed character by character. If there is a mismatch in one of the characters, then the comparison ends there and the program continues (or exits). However, because of this premature breaking, there will be fewer instructions executed when the strings do not match. By counting the number of instructions executed, and checking when that number increases, we can determine what the correct input is.
 
 Here is some code to do that:
 ```python
