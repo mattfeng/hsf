@@ -1,4 +1,0 @@
-telnet 23.226.239.10 49152
-GET /PSBlock
-
-flag{1PM1_1S_MUY_1N$3CUR3_LOPL}
