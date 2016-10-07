@@ -26,7 +26,3 @@
 
 ### Other write-ups
 * (none yet)
-
-```
-
-
