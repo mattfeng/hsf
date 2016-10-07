@@ -13,7 +13,7 @@
 
 ## Write-up
 
-When we navigate to ``23.226.239.10``, we are greeted with a SuperMicro IPMI server login page. Looking up SuperMicro IPMI vulnerabilities, we stumble upon this link [http://serverfault.com/questions/606877/how-to-check-if-my-supermicro-ipmi-is-compromised-with-plaintext-admin-password] (http://serverfault.com/questions/606877/how-to-check-if-my-supermicro-ipmi-is-compromised-with-plaintext-admin-password). It details that the plaintext password to the admin interface on IPMI devices can be accessed by connecting to the server motherboard on port 49152 and running ``GET /PSBlock``.
+When we navigate to ``23.226.239.10``, we are greeted with a SuperMicro IPMI server login page. Looking up SuperMicro IPMI vulnerabilities, we stumble upon this link: [http://serverfault.com/questions/606877/how-to-check-if-my-supermicro-ipmi-is-compromised-with-plaintext-admin-password] (http://serverfault.com/questions/606877/how-to-check-if-my-supermicro-ipmi-is-compromised-with-plaintext-admin-password). It details that the plaintext password to the admin interface on IPMI devices can be accessed by connecting to the server motherboard on port 49152 and running ``GET /PSBlock``.
 
 ```bash
 $ telnet 23.226.239.10 49152
@@ -36,7 +36,7 @@ GET /PSBlock
 ## Other write-ups and resources
 
 ### Resources
-* [] ()
+* [http://serverfault.com/questions/606877/how-to-check-if-my-supermicro-ipmi-is-compromised-with-plaintext-admin-password] (http://serverfault.com/questions/606877/how-to-check-if-my-supermicro-ipmi-is-compromised-with-plaintext-admin-password)
 
 ### Other write-ups
 * (none yet)

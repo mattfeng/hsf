@@ -105,7 +105,8 @@ app.alert("FLAG @oUxuNW8g1zx",3);
 ## Other write-ups and resources
 
 ### Resources
-* [] ()
+* [https://blog.didierstevens.com/programs/pdf-tools/] (https://blog.didierstevens.com/programs/pdf-tools/)
+* [http://python-reference.readthedocs.io/en/latest/docs/str/escapes.html] (http://python-reference.readthedocs.io/en/latest/docs/str/escapes.html)
 
 ### Other write-ups
 * (none yet)
