@@ -2,7 +2,7 @@
 
 **Category:** Network Forensics
 **Points:** 200
-**Solves:** ?
+**Solves:** 75
 **Description:**
 
 > My cat was surfing the dark web again. If you're anything like me, you'd think his lack of thumbs would prevent that. Turns out he's got an affinity for holding the mouse.
