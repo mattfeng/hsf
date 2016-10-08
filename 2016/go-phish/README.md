@@ -19,6 +19,8 @@
 $ volatility --plugins=plugins/ -f phishing.vmem --output=csv --profile=Win7SP1x86 firefoxdownloads
 ```
 
+
+
 ### Flag
 
 `https://dl.dropboxusercontent.com/content_link/LS6nAF3whdbfO1suJGqHkx6mVkrqW8uhLkLUegnS38igQo3jDM9SHaDnmHAxsEEG/file?dl=1`
