@@ -15,7 +15,9 @@
 
 ## Write-up
 
-
+```bash
+$ volatility --plugins=plugins/ -f phishing.vmem --output=csv --profile=Win7SP1x86 firefoxdownloads
+```
 
 ### Flag
 
