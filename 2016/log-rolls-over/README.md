@@ -30,6 +30,7 @@ flag{got_dmp_on_u}.txt
 IEUser\Documents\su\flag{got_dmp_on_u}.txt
 flag{got_dmp_on_u}.txt
 flag{got_dmp_on_u}.txt
+... snip ...
 ```
 
 ### Flag
