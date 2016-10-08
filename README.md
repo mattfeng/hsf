@@ -1,7 +1,7 @@
 # CSAW High School Forensics (HSF) Writeups and Documentation
 
 ## Team Info
-Team Name: **chicken nugger** <br />
+Team Name: **farm fresh boneless skinless chicken finger** <br />
 School: **Poolesville High School** <br />
 
 ## Scoreboard
@@ -15,4 +15,3 @@ School: **Poolesville High School** <br />
 
 ## Contact
 Email: ``matthew.f.phs@gmail.com``
-
