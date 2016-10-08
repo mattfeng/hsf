@@ -13,6 +13,36 @@
 
 ## Write-up
 
+We have a VMDK file, while is the hard disk image created by VMware for its virtual machines. The VMDK is like any other image file, and we can mount it using FTK Imager to look at its contents.
+
+[TODO: ADD IMAGE OF MOUNTED VMDK]
+
+We see an interesting file, ``.gdb_history``, in ???'s directory. This file isn't created unless ``gdb``, the GNU Debugger, has been run at least once. So, we know that someone must have run ``gdb`` on this computer. Let's look at the contents of the file with FTK Imager.
+
+[TODO: ADD IMAGE OF FTK IMAGER WITH .gdb_history FILE IN VIEW]
+
+It's a binary file; we can't do much analysis of binary files in FTK Imager, so we will export the file and explore it more in Kali Linux.
+
+When doing analysis of a binary, we always want to look at the following information at the very beginning:
+
+  1. ``file``: filetype and header information.
+  2. ``strings``: ASCII strings of length 4 or more in the file.
+  3. ``hexdump -C``: hexadecimal dump of the file contents; you should use a hex editor here.
+
+Let's see what each one gives us:
+```bash
+
+```
+
+```bash
+
+```
+
+```bash
+
+```
+
+It's making some kind of connection. I recognize ``avolition`` as a (former) griefing team, so that's surprising. It looks like the binary is connecting to their IRC channel. We can check this by running the binary and then looking at the connections our computer is making.
 
 
 ### Flag

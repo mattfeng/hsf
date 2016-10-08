@@ -6,6 +6,7 @@
 **Description:**
 
 > What time was the file downloaded to the machine?
+>
 > [https://s3.amazonaws.com/hsf2016/History] (https://s3.amazonaws.com/hsf2016/History)
 >
 > Your answer should follow this format: XXXX-XX-XX XX:XX:XX XXX
@@ -26,6 +27,10 @@ If we search ``History sqlite database`` on Google, then the fourth link is the 
 Taking a look at the contents of History, we see this interesting entry:
 
 ![alt text]( "History File")
+
+When was it downloaded (i.e. when was the download started)?
+
+![alt text]( "Download timestamp")
 
 ```
 In [3]: 13115115452298564 / 1000000 - 11644473600

@@ -2,13 +2,13 @@
 
 **Category:** File and Disk Forensics
 **Points:** 100
-**Solves:** 
+**Solves:** 168
 **Description:**
 
 > Don't let your eyes be fooled by what they cannot see...or execute ;)
-> 
+>
 > [https://s3.amazonaws.com/hsf2016/biotech-workfoce.pdf] (https://s3.amazonaws.com/hsf2016/biotech-workfoce.pdf)
-> 
+>
 > Challenge by Antonio Cesar Vargas
 
 ## Write-up
@@ -16,7 +16,7 @@
 Let's look at the file we have downloaded.
 
 ```bash
-$ file biotech-workfoce.pdf 
+$ file biotech-workfoce.pdf
 biotech-workfoce.pdf: PDF document, version 1.4
 ```
 
@@ -30,9 +30,9 @@ $ strings -10 biotech-workfoce.pdf
 /Creator (Karoly Ereky)
 /CreationDate () >>
  /Length 30
- /Filter /ASCIIHexDecode 
+ /Filter /ASCIIHexDecode
 54 68 69 73 20 69 73 20 79 6f 75 72 20 46 4c 41 47 20 66 6f 40 34 41 68 41 41 24 53 5a 6b
-0000000000 65535 f 
+0000000000 65535 f
 /Info 11 0 R >>
 ... snip ...
 ```
