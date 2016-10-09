@@ -441,7 +441,7 @@ First we connect to the server, without any default channels.
 ![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/connecting_2.PNG "Connecting, no channel")
 ![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/connected_to_server_no_channel.PNG "Connected, no channel")
 
-I recognize `avolition` as a (former) griefing team, which is surprising to see in the HSF challenges (but, I do know that ajvpot had connections with aVo, so perhaps it is not so surprising).
+I recognize `avolition` as a (former) griefing team, which is surprising to see in the HSF challenges (but, I do know that ajvpot had connections with aVo, so perhaps it is not so surprising) (it turns out Gus has connections with aVo as well, which is the most likely reason for the aVo references).
 
 Then we run `/list`, and look at the list of channels.
 
