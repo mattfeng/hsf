@@ -26,11 +26,19 @@ If we search ``History sqlite database`` on Google, then the fourth link is the 
 
 Taking a look at the contents of History, we see this interesting entry:
 
-![alt text]( "History File")
+![alt text](https://github.com/mattfeng/hsf/blob/master/2016/_assets/history_download_murder.png "History File")
 
 When was it downloaded (i.e. when was the download started)?
 
-![alt text]( "Download timestamp")
+![alt text](https://github.com/mattfeng/hsf/blob/master/2016/_assets/history_timestamp_murder.png "Download timestamp")
+
+We see the example query on the ForensicsWiki page (http://forensicswiki.org/wiki/Google_Chrome#Timestamps):
+```sql
+SELECT datetime(((downloads.start_time/1000000)-11644473600), "unixepoch"), downloads.target_path, downloads_url_chains.url, downloads.received_bytes, downloads.total_bytes \
+FROM downloads, downloads_url_chains WHERE downloads.id = downloads_url_chains.id;
+```
+
+Copying the math to find the seconds when the download started:
 
 ```
 In [3]: 13115115452298564 / 1000000 - 11644473600
@@ -45,6 +53,8 @@ In [6]: datetime.datetime.strftime(d, '%Y-%m-%d %H:%M:%S')
 Out[6]: '2016-08-08 07:37:32'
 ```
 
+Finally, guessing that times are in UTC, we get the flag.
+
 ### Flag
 
 ``2016-08-08 07:37:32 UTC``
@@ -56,4 +66,3 @@ Out[6]: '2016-08-08 07:37:32'
 
 ### Other write-ups
 * (none yet)
-
