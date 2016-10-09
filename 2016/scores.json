@@ -1,0 +1,2482 @@
+{
+  "standings": [
+    {
+      "id": 132, 
+      "pos": 1, 
+      "score": 4725, 
+      "team": "1064CBread"
+    }, 
+    {
+      "id": 19, 
+      "pos": 2, 
+      "score": 4725, 
+      "team": "farm fresh boneless skinless chicken finger"
+    }, 
+    {
+      "id": 10, 
+      "pos": 3, 
+      "score": 4725, 
+      "team": "Transcendent Gluten-Free Pudding"
+    }, 
+    {
+      "id": 140, 
+      "pos": 4, 
+      "score": 4725, 
+      "team": "\u00b5's"
+    }, 
+    {
+      "id": 87, 
+      "pos": 5, 
+      "score": 4725, 
+      "team": "Anomalous Materials"
+    }, 
+    {
+      "id": 108, 
+      "pos": 6, 
+      "score": 4725, 
+      "team": "TheePotato"
+    }, 
+    {
+      "id": 21, 
+      "pos": 7, 
+      "score": 4725, 
+      "team": "Darkside"
+    }, 
+    {
+      "id": 7, 
+      "pos": 8, 
+      "score": 4725, 
+      "team": "Flaming Pandas"
+    }, 
+    {
+      "id": 12, 
+      "pos": 9, 
+      "score": 4325, 
+      "team": "in/s/ane"
+    }, 
+    {
+      "id": 37, 
+      "pos": 10, 
+      "score": 4225, 
+      "team": "n0de"
+    }, 
+    {
+      "id": 11, 
+      "pos": 11, 
+      "score": 4225, 
+      "team": "Sparkly Purple Harambe"
+    }, 
+    {
+      "id": 139, 
+      "pos": 12, 
+      "score": 4225, 
+      "team": "MegaMeta"
+    }, 
+    {
+      "id": 124, 
+      "pos": 13, 
+      "score": 4225, 
+      "team": "wacode"
+    }, 
+    {
+      "id": 121, 
+      "pos": 14, 
+      "score": 4225, 
+      "team": "The Blue Screen of Death"
+    }, 
+    {
+      "id": 27, 
+      "pos": 15, 
+      "score": 3825, 
+      "team": "plsletuswin"
+    }, 
+    {
+      "id": 54, 
+      "pos": 16, 
+      "score": 3825, 
+      "team": "sean gabaree"
+    }, 
+    {
+      "id": 275, 
+      "pos": 17, 
+      "score": 3825, 
+      "team": "BandhiG"
+    }, 
+    {
+      "id": 42, 
+      "pos": 18, 
+      "score": 3825, 
+      "team": "Crypto Crew"
+    }, 
+    {
+      "id": 112, 
+      "pos": 19, 
+      "score": 3825, 
+      "team": "The 404s"
+    }, 
+    {
+      "id": 173, 
+      "pos": 20, 
+      "score": 3825, 
+      "team": "0x0bfu5c4t3d"
+    }, 
+    {
+      "id": 58, 
+      "pos": 21, 
+      "score": 3825, 
+      "team": "Pirates Party"
+    }, 
+    {
+      "id": 49, 
+      "pos": 22, 
+      "score": 3825, 
+      "team": "Pwn Shadows"
+    }, 
+    {
+      "id": 83, 
+      "pos": 23, 
+      "score": 3825, 
+      "team": "The Lemons"
+    }, 
+    {
+      "id": 24, 
+      "pos": 24, 
+      "score": 3825, 
+      "team": "not hanto"
+    }, 
+    {
+      "id": 28, 
+      "pos": 25, 
+      "score": 3825, 
+      "team": "LARRY_ALERT"
+    }, 
+    {
+      "id": 30, 
+      "pos": 26, 
+      "score": 3825, 
+      "team": "The Deductive Fuzzyhashers 2.0"
+    }, 
+    {
+      "id": 92, 
+      "pos": 27, 
+      "score": 3825, 
+      "team": "Viewerisland"
+    }, 
+    {
+      "id": 3, 
+      "pos": 28, 
+      "score": 3825, 
+      "team": "FailSec"
+    }, 
+    {
+      "id": 107, 
+      "pos": 29, 
+      "score": 3825, 
+      "team": "Quine"
+    }, 
+    {
+      "id": 31, 
+      "pos": 30, 
+      "score": 3725, 
+      "team": "hungry hippos"
+    }, 
+    {
+      "id": 152, 
+      "pos": 31, 
+      "score": 3575, 
+      "team": "Drowning Dolphins"
+    }, 
+    {
+      "id": 71, 
+      "pos": 32, 
+      "score": 3475, 
+      "team": "PHS 4ThePlot"
+    }, 
+    {
+      "id": 70, 
+      "pos": 33, 
+      "score": 3425, 
+      "team": "U+202e"
+    }, 
+    {
+      "id": 8, 
+      "pos": 34, 
+      "score": 3425, 
+      "team": "Spectres"
+    }, 
+    {
+      "id": 141, 
+      "pos": 35, 
+      "score": 3425, 
+      "team": "Pentacontagons"
+    }, 
+    {
+      "id": 428, 
+      "pos": 36, 
+      "score": 3425, 
+      "team": "Team Leaf"
+    }, 
+    {
+      "id": 196, 
+      "pos": 37, 
+      "score": 3350, 
+      "team": "\"; DROP TABLE competitors;"
+    }, 
+    {
+      "id": 119, 
+      "pos": 38, 
+      "score": 3350, 
+      "team": "Omega"
+    }, 
+    {
+      "id": 484, 
+      "pos": 39, 
+      "score": 3350, 
+      "team": "th3jackers"
+    }, 
+    {
+      "id": 103, 
+      "pos": 40, 
+      "score": 3275, 
+      "team": "SegFault"
+    }, 
+    {
+      "id": 164, 
+      "pos": 41, 
+      "score": 3250, 
+      "team": "WubbaLubbaDubDub"
+    }, 
+    {
+      "id": 434, 
+      "pos": 42, 
+      "score": 3225, 
+      "team": "Striking Slayers"
+    }, 
+    {
+      "id": 224, 
+      "pos": 43, 
+      "score": 3175, 
+      "team": "Cyber hackers"
+    }, 
+    {
+      "id": 347, 
+      "pos": 44, 
+      "score": 3150, 
+      "team": "devHacks()"
+    }, 
+    {
+      "id": 22, 
+      "pos": 45, 
+      "score": 3125, 
+      "team": "Bass Phishing"
+    }, 
+    {
+      "id": 218, 
+      "pos": 46, 
+      "score": 3125, 
+      "team": "SKW"
+    }, 
+    {
+      "id": 80, 
+      "pos": 47, 
+      "score": 3075, 
+      "team": "Diablo"
+    }, 
+    {
+      "id": 200, 
+      "pos": 48, 
+      "score": 3075, 
+      "team": "Helix=True"
+    }, 
+    {
+      "id": 156, 
+      "pos": 49, 
+      "score": 3050, 
+      "team": "rekt"
+    }, 
+    {
+      "id": 130, 
+      "pos": 50, 
+      "score": 3050, 
+      "team": "Shadyside"
+    }, 
+    {
+      "id": 110, 
+      "pos": 51, 
+      "score": 3025, 
+      "team": "The Trump Train"
+    }, 
+    {
+      "id": 244, 
+      "pos": 52, 
+      "score": 2975, 
+      "team": "TheSeCaTech"
+    }, 
+    {
+      "id": 287, 
+      "pos": 53, 
+      "score": 2975, 
+      "team": "Renegade"
+    }, 
+    {
+      "id": 13, 
+      "pos": 54, 
+      "score": 2975, 
+      "team": "Bohemians"
+    }, 
+    {
+      "id": 249, 
+      "pos": 55, 
+      "score": 2925, 
+      "team": "Code Squad"
+    }, 
+    {
+      "id": 188, 
+      "pos": 56, 
+      "score": 2625, 
+      "team": "Lumberjacks"
+    }, 
+    {
+      "id": 91, 
+      "pos": 57, 
+      "score": 2600, 
+      "team": "NAR"
+    }, 
+    {
+      "id": 18, 
+      "pos": 58, 
+      "score": 2575, 
+      "team": "Leaders"
+    }, 
+    {
+      "id": 131, 
+      "pos": 59, 
+      "score": 2575, 
+      "team": "5ucc3ss 4c@d3my"
+    }, 
+    {
+      "id": 51, 
+      "pos": 60, 
+      "score": 2500, 
+      "team": "Bits Out For Harambe"
+    }, 
+    {
+      "id": 113, 
+      "pos": 61, 
+      "score": 2250, 
+      "team": "Dank Meme Machine"
+    }, 
+    {
+      "id": 206, 
+      "pos": 62, 
+      "score": 2250, 
+      "team": "#Octothorpe"
+    }, 
+    {
+      "id": 40, 
+      "pos": 63, 
+      "score": 2175, 
+      "team": "vort3x"
+    }, 
+    {
+      "id": 61, 
+      "pos": 64, 
+      "score": 2175, 
+      "team": "PHS Triggered for Harambae"
+    }, 
+    {
+      "id": 98, 
+      "pos": 65, 
+      "score": 2175, 
+      "team": "Rob Tracy's"
+    }, 
+    {
+      "id": 420, 
+      "pos": 66, 
+      "score": 2125, 
+      "team": "lolharambelives"
+    }, 
+    {
+      "id": 84, 
+      "pos": 67, 
+      "score": 2125, 
+      "team": "Hacker.Co"
+    }, 
+    {
+      "id": 391, 
+      "pos": 68, 
+      "score": 2125, 
+      "team": "NKH Squad"
+    }, 
+    {
+      "id": 9, 
+      "pos": 69, 
+      "score": 2100, 
+      "team": "King kuang"
+    }, 
+    {
+      "id": 96, 
+      "pos": 70, 
+      "score": 2000, 
+      "team": "pinecone"
+    }, 
+    {
+      "id": 99, 
+      "pos": 71, 
+      "score": 1925, 
+      "team": "Mr. Robot"
+    }, 
+    {
+      "id": 149, 
+      "pos": 72, 
+      "score": 1900, 
+      "team": "TJHSA1"
+    }, 
+    {
+      "id": 269, 
+      "pos": 73, 
+      "score": 1900, 
+      "team": "r@m0s"
+    }, 
+    {
+      "id": 229, 
+      "pos": 74, 
+      "score": 1900, 
+      "team": "Kangzumin"
+    }, 
+    {
+      "id": 240, 
+      "pos": 75, 
+      "score": 1900, 
+      "team": "DuckMale "
+    }, 
+    {
+      "id": 15, 
+      "pos": 76, 
+      "score": 1825, 
+      "team": "Techxperts"
+    }, 
+    {
+      "id": 20, 
+      "pos": 77, 
+      "score": 1800, 
+      "team": "A humuhumunukunukuapua'a in Papahanaumokuakea "
+    }, 
+    {
+      "id": 145, 
+      "pos": 78, 
+      "score": 1800, 
+      "team": "Sh@dyside"
+    }, 
+    {
+      "id": 335, 
+      "pos": 79, 
+      "score": 1800, 
+      "team": "this house has bears in it"
+    }, 
+    {
+      "id": 78, 
+      "pos": 80, 
+      "score": 1800, 
+      "team": "Doc Chu's Dumplings"
+    }, 
+    {
+      "id": 26, 
+      "pos": 81, 
+      "score": 1800, 
+      "team": "RDHS CyberHawks"
+    }, 
+    {
+      "id": 369, 
+      "pos": 82, 
+      "score": 1750, 
+      "team": "Polka-dotted Pirate People"
+    }, 
+    {
+      "id": 148, 
+      "pos": 83, 
+      "score": 1750, 
+      "team": "Team Maroon"
+    }, 
+    {
+      "id": 238, 
+      "pos": 84, 
+      "score": 1750, 
+      "team": "Pearson Lit"
+    }, 
+    {
+      "id": 260, 
+      "pos": 85, 
+      "score": 1725, 
+      "team": "L*J^2"
+    }, 
+    {
+      "id": 184, 
+      "pos": 86, 
+      "score": 1700, 
+      "team": "0x4D4853"
+    }, 
+    {
+      "id": 405, 
+      "pos": 87, 
+      "score": 1700, 
+      "team": "rofl"
+    }, 
+    {
+      "id": 183, 
+      "pos": 88, 
+      "score": 1700, 
+      "team": "Night Crawler"
+    }, 
+    {
+      "id": 104, 
+      "pos": 89, 
+      "score": 1675, 
+      "team": "CyberHawks"
+    }, 
+    {
+      "id": 25, 
+      "pos": 90, 
+      "score": 1575, 
+      "team": "Presidential Clown Fiesta 2016"
+    }, 
+    {
+      "id": 437, 
+      "pos": 91, 
+      "score": 1550, 
+      "team": "hy00un"
+    }, 
+    {
+      "id": 32, 
+      "pos": 92, 
+      "score": 1525, 
+      "team": "PHS Iliad"
+    }, 
+    {
+      "id": 248, 
+      "pos": 93, 
+      "score": 1475, 
+      "team": "Meme Acquisition Unit"
+    }, 
+    {
+      "id": 253, 
+      "pos": 94, 
+      "score": 1475, 
+      "team": "Mooshie and The Wooshie"
+    }, 
+    {
+      "id": 213, 
+      "pos": 95, 
+      "score": 1475, 
+      "team": "int elligence;"
+    }, 
+    {
+      "id": 157, 
+      "pos": 96, 
+      "score": 1450, 
+      "team": "Yin Wang"
+    }, 
+    {
+      "id": 241, 
+      "pos": 97, 
+      "score": 1425, 
+      "team": "Bingo"
+    }, 
+    {
+      "id": 135, 
+      "pos": 98, 
+      "score": 1425, 
+      "team": "The Onions"
+    }, 
+    {
+      "id": 389, 
+      "pos": 99, 
+      "score": 1425, 
+      "team": "Defacers"
+    }, 
+    {
+      "id": 222, 
+      "pos": 100, 
+      "score": 1425, 
+      "team": "No Idea TBH"
+    }, 
+    {
+      "id": 116, 
+      "pos": 101, 
+      "score": 1400, 
+      "team": "YoMaN"
+    }, 
+    {
+      "id": 161, 
+      "pos": 102, 
+      "score": 1400, 
+      "team": "Damascus HSF"
+    }, 
+    {
+      "id": 426, 
+      "pos": 103, 
+      "score": 1400, 
+      "team": "Team 2A"
+    }, 
+    {
+      "id": 17, 
+      "pos": 104, 
+      "score": 1375, 
+      "team": "4n6guy"
+    }, 
+    {
+      "id": 126, 
+      "pos": 105, 
+      "score": 1350, 
+      "team": "Keyboard Slayers"
+    }, 
+    {
+      "id": 328, 
+      "pos": 106, 
+      "score": 1350, 
+      "team": "The Fruitcakes"
+    }, 
+    {
+      "id": 550, 
+      "pos": 107, 
+      "score": 1325, 
+      "team": "jackstone"
+    }, 
+    {
+      "id": 147, 
+      "pos": 108, 
+      "score": 1300, 
+      "team": "(PHS) U+202d"
+    }, 
+    {
+      "id": 246, 
+      "pos": 109, 
+      "score": 1300, 
+      "team": "Team Harambe"
+    }, 
+    {
+      "id": 90, 
+      "pos": 110, 
+      "score": 1300, 
+      "team": "Team Rocket"
+    }, 
+    {
+      "id": 168, 
+      "pos": 111, 
+      "score": 1275, 
+      "team": "PAKZ"
+    }, 
+    {
+      "id": 236, 
+      "pos": 112, 
+      "score": 1275, 
+      "team": "username"
+    }, 
+    {
+      "id": 388, 
+      "pos": 113, 
+      "score": 1250, 
+      "team": "ABC123"
+    }, 
+    {
+      "id": 301, 
+      "pos": 114, 
+      "score": 1250, 
+      "team": "0day247"
+    }, 
+    {
+      "id": 454, 
+      "pos": 115, 
+      "score": 1200, 
+      "team": "h4ck3rz"
+    }, 
+    {
+      "id": 306, 
+      "pos": 116, 
+      "score": 1200, 
+      "team": "bobbyluig"
+    }, 
+    {
+      "id": 39, 
+      "pos": 117, 
+      "score": 1150, 
+      "team": "/_\\"
+    }, 
+    {
+      "id": 383, 
+      "pos": 118, 
+      "score": 1150, 
+      "team": "Men At Network"
+    }, 
+    {
+      "id": 111, 
+      "pos": 119, 
+      "score": 1150, 
+      "team": "PCMR"
+    }, 
+    {
+      "id": 251, 
+      "pos": 120, 
+      "score": 1125, 
+      "team": "Error!"
+    }, 
+    {
+      "id": 120, 
+      "pos": 121, 
+      "score": 1125, 
+      "team": "FTC++"
+    }, 
+    {
+      "id": 50, 
+      "pos": 122, 
+      "score": 1100, 
+      "team": "Dream Meme Team"
+    }, 
+    {
+      "id": 160, 
+      "pos": 123, 
+      "score": 1100, 
+      "team": "mathwizurds"
+    }, 
+    {
+      "id": 63, 
+      "pos": 124, 
+      "score": 1100, 
+      "team": "Cybertonic"
+    }, 
+    {
+      "id": 201, 
+      "pos": 125, 
+      "score": 1100, 
+      "team": "FlyEaglesFly"
+    }, 
+    {
+      "id": 41, 
+      "pos": 126, 
+      "score": 1100, 
+      "team": "PlayFair2K16"
+    }, 
+    {
+      "id": 48, 
+      "pos": 127, 
+      "score": 1100, 
+      "team": "Lechom"
+    }, 
+    {
+      "id": 55, 
+      "pos": 128, 
+      "score": 1075, 
+      "team": "fsociety"
+    }, 
+    {
+      "id": 394, 
+      "pos": 129, 
+      "score": 1050, 
+      "team": "hanto"
+    }, 
+    {
+      "id": 179, 
+      "pos": 130, 
+      "score": 1050, 
+      "team": "Chex Mix"
+    }, 
+    {
+      "id": 117, 
+      "pos": 131, 
+      "score": 1050, 
+      "team": "script-kiddies"
+    }, 
+    {
+      "id": 35, 
+      "pos": 132, 
+      "score": 1025, 
+      "team": "yuki is eleven :^)"
+    }, 
+    {
+      "id": 400, 
+      "pos": 133, 
+      "score": 1000, 
+      "team": "Just4Fun"
+    }, 
+    {
+      "id": 402, 
+      "pos": 134, 
+      "score": 975, 
+      "team": "BitByte"
+    }, 
+    {
+      "id": 338, 
+      "pos": 135, 
+      "score": 950, 
+      "team": "Oggsford Men"
+    }, 
+    {
+      "id": 133, 
+      "pos": 136, 
+      "score": 950, 
+      "team": "The Medical Bars"
+    }, 
+    {
+      "id": 6, 
+      "pos": 137, 
+      "score": 950, 
+      "team": "Desert Sharks"
+    }, 
+    {
+      "id": 178, 
+      "pos": 138, 
+      "score": 950, 
+      "team": "Old Sports"
+    }, 
+    {
+      "id": 181, 
+      "pos": 139, 
+      "score": 950, 
+      "team": "graphix"
+    }, 
+    {
+      "id": 309, 
+      "pos": 140, 
+      "score": 950, 
+      "team": "Quacks of Fire"
+    }, 
+    {
+      "id": 137, 
+      "pos": 141, 
+      "score": 925, 
+      "team": "WWW"
+    }, 
+    {
+      "id": 59, 
+      "pos": 142, 
+      "score": 925, 
+      "team": "Hips Don't Lie"
+    }, 
+    {
+      "id": 228, 
+      "pos": 143, 
+      "score": 925, 
+      "team": "digital destroyers"
+    }, 
+    {
+      "id": 136, 
+      "pos": 144, 
+      "score": 900, 
+      "team": "ReetSquad"
+    }, 
+    {
+      "id": 288, 
+      "pos": 145, 
+      "score": 900, 
+      "team": "Floating Doubles"
+    }, 
+    {
+      "id": 129, 
+      "pos": 146, 
+      "score": 900, 
+      "team": "Banana Slugs\u2122"
+    }, 
+    {
+      "id": 285, 
+      "pos": 147, 
+      "score": 900, 
+      "team": "The Bogo Boys"
+    }, 
+    {
+      "id": 386, 
+      "pos": 148, 
+      "score": 900, 
+      "team": "Luminosity"
+    }, 
+    {
+      "id": 363, 
+      "pos": 149, 
+      "score": 900, 
+      "team": "CTU"
+    }, 
+    {
+      "id": 166, 
+      "pos": 150, 
+      "score": 900, 
+      "team": "Three Horsemen"
+    }, 
+    {
+      "id": 122, 
+      "pos": 151, 
+      "score": 900, 
+      "team": "Westborough High School"
+    }, 
+    {
+      "id": 101, 
+      "pos": 152, 
+      "score": 900, 
+      "team": "poopsec"
+    }, 
+    {
+      "id": 82, 
+      "pos": 153, 
+      "score": 850, 
+      "team": "Io Arcana"
+    }, 
+    {
+      "id": 225, 
+      "pos": 154, 
+      "score": 850, 
+      "team": "Donkey Super Kong"
+    }, 
+    {
+      "id": 85, 
+      "pos": 155, 
+      "score": 850, 
+      "team": "The Illuminati"
+    }, 
+    {
+      "id": 88, 
+      "pos": 156, 
+      "score": 825, 
+      "team": "Perigrine"
+    }, 
+    {
+      "id": 320, 
+      "pos": 157, 
+      "score": 825, 
+      "team": "Chili Peppers"
+    }, 
+    {
+      "id": 376, 
+      "pos": 158, 
+      "score": 825, 
+      "team": "PI"
+    }, 
+    {
+      "id": 114, 
+      "pos": 159, 
+      "score": 800, 
+      "team": "Cyber Pyrates"
+    }, 
+    {
+      "id": 127, 
+      "pos": 160, 
+      "score": 800, 
+      "team": "ThreeKids"
+    }, 
+    {
+      "id": 370, 
+      "pos": 161, 
+      "score": 800, 
+      "team": "Northport SuperSecurityGuys "
+    }, 
+    {
+      "id": 234, 
+      "pos": 162, 
+      "score": 800, 
+      "team": "Triwitch"
+    }, 
+    {
+      "id": 182, 
+      "pos": 163, 
+      "score": 800, 
+      "team": "Logger Turtles"
+    }, 
+    {
+      "id": 506, 
+      "pos": 164, 
+      "score": 800, 
+      "team": "CZ"
+    }, 
+    {
+      "id": 221, 
+      "pos": 165, 
+      "score": 775, 
+      "team": "GNN"
+    }, 
+    {
+      "id": 356, 
+      "pos": 166, 
+      "score": 775, 
+      "team": "Cache_Crook"
+    }, 
+    {
+      "id": 318, 
+      "pos": 167, 
+      "score": 775, 
+      "team": "45C-SAW"
+    }, 
+    {
+      "id": 209, 
+      "pos": 168, 
+      "score": 775, 
+      "team": "TP+A"
+    }, 
+    {
+      "id": 187, 
+      "pos": 169, 
+      "score": 750, 
+      "team": "TestCode"
+    }, 
+    {
+      "id": 29, 
+      "pos": 170, 
+      "score": 750, 
+      "team": "phs dQw4w9WgXcQ"
+    }, 
+    {
+      "id": 56, 
+      "pos": 171, 
+      "score": 750, 
+      "team": "Sawyer's Snakes"
+    }, 
+    {
+      "id": 340, 
+      "pos": 172, 
+      "score": 725, 
+      "team": "GAK"
+    }, 
+    {
+      "id": 194, 
+      "pos": 173, 
+      "score": 700, 
+      "team": "Hacker Raptors"
+    }, 
+    {
+      "id": 442, 
+      "pos": 174, 
+      "score": 700, 
+      "team": "The Italian Polar Bears"
+    }, 
+    {
+      "id": 143, 
+      "pos": 175, 
+      "score": 675, 
+      "team": "BHS JK Wilson"
+    }, 
+    {
+      "id": 270, 
+      "pos": 176, 
+      "score": 650, 
+      "team": "P1nkj0r"
+    }, 
+    {
+      "id": 401, 
+      "pos": 177, 
+      "score": 650, 
+      "team": "nc"
+    }, 
+    {
+      "id": 176, 
+      "pos": 178, 
+      "score": 600, 
+      "team": "ASMASA"
+    }, 
+    {
+      "id": 89, 
+      "pos": 179, 
+      "score": 600, 
+      "team": "The Singularity"
+    }, 
+    {
+      "id": 311, 
+      "pos": 180, 
+      "score": 600, 
+      "team": "Me, My Shell, and I"
+    }, 
+    {
+      "id": 281, 
+      "pos": 181, 
+      "score": 600, 
+      "team": "Barnie"
+    }, 
+    {
+      "id": 289, 
+      "pos": 182, 
+      "score": 600, 
+      "team": "Branthony Montalbouslog"
+    }, 
+    {
+      "id": 323, 
+      "pos": 183, 
+      "score": 600, 
+      "team": "Johnny Quasar"
+    }, 
+    {
+      "id": 204, 
+      "pos": 184, 
+      "score": 600, 
+      "team": "Power Team"
+    }, 
+    {
+      "id": 277, 
+      "pos": 185, 
+      "score": 600, 
+      "team": "Damanators"
+    }, 
+    {
+      "id": 75, 
+      "pos": 186, 
+      "score": 600, 
+      "team": "Ninja Doggy"
+    }, 
+    {
+      "id": 290, 
+      "pos": 187, 
+      "score": 600, 
+      "team": "Pulp Nonfiction"
+    }, 
+    {
+      "id": 125, 
+      "pos": 188, 
+      "score": 600, 
+      "team": "CodeBusters"
+    }, 
+    {
+      "id": 453, 
+      "pos": 189, 
+      "score": 600, 
+      "team": "My$tery X"
+    }, 
+    {
+      "id": 410, 
+      "pos": 190, 
+      "score": 600, 
+      "team": "DedSec"
+    }, 
+    {
+      "id": 509, 
+      "pos": 191, 
+      "score": 600, 
+      "team": "CyberNEA"
+    }, 
+    {
+      "id": 436, 
+      "pos": 192, 
+      "score": 575, 
+      "team": "PHS Global Guy"
+    }, 
+    {
+      "id": 358, 
+      "pos": 193, 
+      "score": 575, 
+      "team": "Panic!AtTheData"
+    }, 
+    {
+      "id": 259, 
+      "pos": 194, 
+      "score": 575, 
+      "team": "Cleverest Cellar"
+    }, 
+    {
+      "id": 100, 
+      "pos": 195, 
+      "score": 575, 
+      "team": "CyberKnight"
+    }, 
+    {
+      "id": 65, 
+      "pos": 196, 
+      "score": 550, 
+      "team": "The Dragons"
+    }, 
+    {
+      "id": 227, 
+      "pos": 197, 
+      "score": 525, 
+      "team": "kad"
+    }, 
+    {
+      "id": 235, 
+      "pos": 198, 
+      "score": 525, 
+      "team": "UIT.DLL"
+    }, 
+    {
+      "id": 352, 
+      "pos": 199, 
+      "score": 525, 
+      "team": "Encripters"
+    }, 
+    {
+      "id": 263, 
+      "pos": 200, 
+      "score": 500, 
+      "team": "PRISM"
+    }, 
+    {
+      "id": 72, 
+      "pos": 201, 
+      "score": 500, 
+      "team": "Red Falcons"
+    }, 
+    {
+      "id": 174, 
+      "pos": 202, 
+      "score": 500, 
+      "team": "Conquistadors"
+    }, 
+    {
+      "id": 66, 
+      "pos": 203, 
+      "score": 500, 
+      "team": "GHHS CyberSec Team B"
+    }, 
+    {
+      "id": 94, 
+      "pos": 204, 
+      "score": 500, 
+      "team": "Samuel"
+    }, 
+    {
+      "id": 292, 
+      "pos": 205, 
+      "score": 500, 
+      "team": "Sig Fligs"
+    }, 
+    {
+      "id": 315, 
+      "pos": 206, 
+      "score": 500, 
+      "team": "C@nc3r"
+    }, 
+    {
+      "id": 163, 
+      "pos": 207, 
+      "score": 500, 
+      "team": "Re:Coded"
+    }, 
+    {
+      "id": 357, 
+      "pos": 208, 
+      "score": 500, 
+      "team": "Best team ever"
+    }, 
+    {
+      "id": 118, 
+      "pos": 209, 
+      "score": 500, 
+      "team": "JPS Internet Wizards"
+    }, 
+    {
+      "id": 123, 
+      "pos": 210, 
+      "score": 500, 
+      "team": "The Bottom 1%"
+    }, 
+    {
+      "id": 264, 
+      "pos": 211, 
+      "score": 500, 
+      "team": "IDC"
+    }, 
+    {
+      "id": 258, 
+      "pos": 212, 
+      "score": 500, 
+      "team": "Ostismos"
+    }, 
+    {
+      "id": 186, 
+      "pos": 213, 
+      "score": 500, 
+      "team": "Java Boy"
+    }, 
+    {
+      "id": 419, 
+      "pos": 214, 
+      "score": 500, 
+      "team": "Clockery"
+    }, 
+    {
+      "id": 36, 
+      "pos": 215, 
+      "score": 500, 
+      "team": "Cyber Chiefs"
+    }, 
+    {
+      "id": 211, 
+      "pos": 216, 
+      "score": 500, 
+      "team": "Titan Forensics"
+    }, 
+    {
+      "id": 134, 
+      "pos": 217, 
+      "score": 500, 
+      "team": "Unicorn Island"
+    }, 
+    {
+      "id": 276, 
+      "pos": 218, 
+      "score": 500, 
+      "team": "Big Hoss"
+    }, 
+    {
+      "id": 342, 
+      "pos": 219, 
+      "score": 500, 
+      "team": "hacking in progress"
+    }, 
+    {
+      "id": 257, 
+      "pos": 220, 
+      "score": 500, 
+      "team": "Ape Thunder"
+    }, 
+    {
+      "id": 448, 
+      "pos": 221, 
+      "score": 500, 
+      "team": "~ a y y l m a o ~ :^)"
+    }, 
+    {
+      "id": 272, 
+      "pos": 222, 
+      "score": 475, 
+      "team": "Wretchedly Inconclusive Conquerors"
+    }, 
+    {
+      "id": 354, 
+      "pos": 223, 
+      "score": 450, 
+      "team": "Squad107"
+    }, 
+    {
+      "id": 144, 
+      "pos": 224, 
+      "score": 425, 
+      "team": "z6675636b6b6b0a"
+    }, 
+    {
+      "id": 44, 
+      "pos": 225, 
+      "score": 425, 
+      "team": "BurntSweetPotatoes"
+    }, 
+    {
+      "id": 67, 
+      "pos": 226, 
+      "score": 425, 
+      "team": "BroAverage"
+    }, 
+    {
+      "id": 68, 
+      "pos": 227, 
+      "score": 425, 
+      "team": "The A-Team"
+    }, 
+    {
+      "id": 74, 
+      "pos": 228, 
+      "score": 425, 
+      "team": "Big Midnight Turtles"
+    }, 
+    {
+      "id": 73, 
+      "pos": 229, 
+      "score": 425, 
+      "team": "Bib Fortuna"
+    }, 
+    {
+      "id": 203, 
+      "pos": 230, 
+      "score": 425, 
+      "team": "Desert Storm"
+    }, 
+    {
+      "id": 319, 
+      "pos": 231, 
+      "score": 425, 
+      "team": "mr robot"
+    }, 
+    {
+      "id": 278, 
+      "pos": 232, 
+      "score": 425, 
+      "team": "Cryptic Warriors"
+    }, 
+    {
+      "id": 47, 
+      "pos": 233, 
+      "score": 425, 
+      "team": "Vaishnavi Varma"
+    }, 
+    {
+      "id": 316, 
+      "pos": 234, 
+      "score": 425, 
+      "team": "JDAAIA"
+    }, 
+    {
+      "id": 64, 
+      "pos": 235, 
+      "score": 425, 
+      "team": "pythons"
+    }, 
+    {
+      "id": 291, 
+      "pos": 236, 
+      "score": 425, 
+      "team": "Cookie.jar"
+    }, 
+    {
+      "id": 193, 
+      "pos": 237, 
+      "score": 425, 
+      "team": "Moxy Proxie"
+    }, 
+    {
+      "id": 546, 
+      "pos": 238, 
+      "score": 425, 
+      "team": "The N00b"
+    }, 
+    {
+      "id": 169, 
+      "pos": 239, 
+      "score": 400, 
+      "team": "Big Bobby Tables"
+    }, 
+    {
+      "id": 447, 
+      "pos": 240, 
+      "score": 375, 
+      "team": "jonathan"
+    }, 
+    {
+      "id": 171, 
+      "pos": 241, 
+      "score": 350, 
+      "team": "abc123abc123"
+    }, 
+    {
+      "id": 109, 
+      "pos": 242, 
+      "score": 350, 
+      "team": "Ninja Coders"
+    }, 
+    {
+      "id": 162, 
+      "pos": 243, 
+      "score": 350, 
+      "team": "PHS THE Corner"
+    }, 
+    {
+      "id": 167, 
+      "pos": 244, 
+      "score": 350, 
+      "team": "NEL"
+    }, 
+    {
+      "id": 312, 
+      "pos": 245, 
+      "score": 350, 
+      "team": "PolyChamps"
+    }, 
+    {
+      "id": 321, 
+      "pos": 246, 
+      "score": 350, 
+      "team": "CodeX"
+    }, 
+    {
+      "id": 303, 
+      "pos": 247, 
+      "score": 350, 
+      "team": "mrh318"
+    }, 
+    {
+      "id": 491, 
+      "pos": 248, 
+      "score": 350, 
+      "team": "Express Pandas 2.0"
+    }, 
+    {
+      "id": 494, 
+      "pos": 249, 
+      "score": 350, 
+      "team": "Express Pandas 3.0"
+    }, 
+    {
+      "id": 336, 
+      "pos": 250, 
+      "score": 350, 
+      "team": "Team ACE"
+    }, 
+    {
+      "id": 305, 
+      "pos": 251, 
+      "score": 350, 
+      "team": "Crazy_Hackers_Squad"
+    }, 
+    {
+      "id": 299, 
+      "pos": 252, 
+      "score": 350, 
+      "team": "Supersonic Aero Cyborg Ninjas"
+    }, 
+    {
+      "id": 300, 
+      "pos": 253, 
+      "score": 325, 
+      "team": "Smiling is a waste of time :("
+    }, 
+    {
+      "id": 280, 
+      "pos": 254, 
+      "score": 325, 
+      "team": "Peanut Warrior"
+    }, 
+    {
+      "id": 331, 
+      "pos": 255, 
+      "score": 325, 
+      "team": "EdisonCForensics"
+    }, 
+    {
+      "id": 392, 
+      "pos": 256, 
+      "score": 275, 
+      "team": "Dark Army"
+    }, 
+    {
+      "id": 440, 
+      "pos": 257, 
+      "score": 275, 
+      "team": "Hispanic Scholarship Fund"
+    }, 
+    {
+      "id": 215, 
+      "pos": 258, 
+      "score": 250, 
+      "team": "abcdef"
+    }, 
+    {
+      "id": 237, 
+      "pos": 259, 
+      "score": 250, 
+      "team": "L.E.I."
+    }, 
+    {
+      "id": 158, 
+      "pos": 260, 
+      "score": 250, 
+      "team": "Decay of Society"
+    }, 
+    {
+      "id": 151, 
+      "pos": 261, 
+      "score": 250, 
+      "team": "/dev/null"
+    }, 
+    {
+      "id": 286, 
+      "pos": 262, 
+      "score": 250, 
+      "team": "\"); DROP TABLE users; -- "
+    }, 
+    {
+      "id": 106, 
+      "pos": 263, 
+      "score": 250, 
+      "team": "TophatBulldogs!"
+    }, 
+    {
+      "id": 435, 
+      "pos": 264, 
+      "score": 250, 
+      "team": "Synyster"
+    }, 
+    {
+      "id": 219, 
+      "pos": 265, 
+      "score": 250, 
+      "team": "JAB"
+    }, 
+    {
+      "id": 493, 
+      "pos": 266, 
+      "score": 250, 
+      "team": "Express Pandas 2.1"
+    }, 
+    {
+      "id": 261, 
+      "pos": 267, 
+      "score": 250, 
+      "team": "nonamers"
+    }, 
+    {
+      "id": 170, 
+      "pos": 268, 
+      "score": 250, 
+      "team": "Milk Hunters"
+    }, 
+    {
+      "id": 446, 
+      "pos": 269, 
+      "score": 250, 
+      "team": "The Rising Stars"
+    }, 
+    {
+      "id": 341, 
+      "pos": 270, 
+      "score": 250, 
+      "team": "Fantastic3"
+    }, 
+    {
+      "id": 302, 
+      "pos": 271, 
+      "score": 225, 
+      "team": "Th3 Purge"
+    }, 
+    {
+      "id": 14, 
+      "pos": 272, 
+      "score": 200, 
+      "team": "Flags & Dragons"
+    }, 
+    {
+      "id": 53, 
+      "pos": 273, 
+      "score": 175, 
+      "team": "Samz"
+    }, 
+    {
+      "id": 128, 
+      "pos": 274, 
+      "score": 175, 
+      "team": "Poolesville Cat Squad Deluxe"
+    }, 
+    {
+      "id": 208, 
+      "pos": 275, 
+      "score": 175, 
+      "team": "LIGHT"
+    }, 
+    {
+      "id": 95, 
+      "pos": 276, 
+      "score": 175, 
+      "team": "Bits Pls"
+    }, 
+    {
+      "id": 81, 
+      "pos": 277, 
+      "score": 175, 
+      "team": "Texas Tornado"
+    }, 
+    {
+      "id": 297, 
+      "pos": 278, 
+      "score": 175, 
+      "team": "JPoch628"
+    }, 
+    {
+      "id": 322, 
+      "pos": 279, 
+      "score": 175, 
+      "team": "Whasians?"
+    }, 
+    {
+      "id": 326, 
+      "pos": 280, 
+      "score": 175, 
+      "team": "The Annoying Novelty Mobsters"
+    }, 
+    {
+      "id": 330, 
+      "pos": 281, 
+      "score": 175, 
+      "team": "The Mighty Morphin Flower Arrangers"
+    }, 
+    {
+      "id": 337, 
+      "pos": 282, 
+      "score": 175, 
+      "team": "Mia Khalifa"
+    }, 
+    {
+      "id": 359, 
+      "pos": 283, 
+      "score": 175, 
+      "team": "Warrior16"
+    }, 
+    {
+      "id": 298, 
+      "pos": 284, 
+      "score": 175, 
+      "team": "Jarhead's Jars MkII MkIII"
+    }, 
+    {
+      "id": 366, 
+      "pos": 285, 
+      "score": 175, 
+      "team": "The Mad Hatters"
+    }, 
+    {
+      "id": 362, 
+      "pos": 286, 
+      "score": 175, 
+      "team": "The Brogrammers"
+    }, 
+    {
+      "id": 378, 
+      "pos": 287, 
+      "score": 175, 
+      "team": "Cyber Warriors 1"
+    }, 
+    {
+      "id": 361, 
+      "pos": 288, 
+      "score": 175, 
+      "team": "Dynamic Duo"
+    }, 
+    {
+      "id": 45, 
+      "pos": 289, 
+      "score": 175, 
+      "team": "Camel Express"
+    }, 
+    {
+      "id": 52, 
+      "pos": 290, 
+      "score": 175, 
+      "team": "Double Sided Moon"
+    }, 
+    {
+      "id": 226, 
+      "pos": 291, 
+      "score": 175, 
+      "team": "microchips"
+    }, 
+    {
+      "id": 414, 
+      "pos": 292, 
+      "score": 175, 
+      "team": "CosmicHamsters1412"
+    }, 
+    {
+      "id": 424, 
+      "pos": 293, 
+      "score": 175, 
+      "team": "harambe"
+    }, 
+    {
+      "id": 423, 
+      "pos": 294, 
+      "score": 175, 
+      "team": "Smoking Gun "
+    }, 
+    {
+      "id": 431, 
+      "pos": 295, 
+      "score": 175, 
+      "team": "DekaZane"
+    }, 
+    {
+      "id": 350, 
+      "pos": 296, 
+      "score": 175, 
+      "team": "Simple Solutions"
+    }, 
+    {
+      "id": 441, 
+      "pos": 297, 
+      "score": 175, 
+      "team": "Ray's Wang"
+    }, 
+    {
+      "id": 185, 
+      "pos": 298, 
+      "score": 175, 
+      "team": "Knights"
+    }, 
+    {
+      "id": 214, 
+      "pos": 299, 
+      "score": 175, 
+      "team": "Griffins"
+    }, 
+    {
+      "id": 421, 
+      "pos": 300, 
+      "score": 175, 
+      "team": "Team Bendtner"
+    }, 
+    {
+      "id": 198, 
+      "pos": 301, 
+      "score": 175, 
+      "team": "Master Minds"
+    }, 
+    {
+      "id": 105, 
+      "pos": 302, 
+      "score": 175, 
+      "team": "HaCk$fOrDaY$"
+    }, 
+    {
+      "id": 364, 
+      "pos": 303, 
+      "score": 175, 
+      "team": "Jarthead's Jars v2.3 Mk IV"
+    }, 
+    {
+      "id": 480, 
+      "pos": 304, 
+      "score": 175, 
+      "team": "CodeMasters101"
+    }, 
+    {
+      "id": 488, 
+      "pos": 305, 
+      "score": 175, 
+      "team": "THAT ONE DUDE!"
+    }, 
+    {
+      "id": 397, 
+      "pos": 306, 
+      "score": 175, 
+      "team": "Team Name Taken"
+    }, 
+    {
+      "id": 461, 
+      "pos": 307, 
+      "score": 175, 
+      "team": "The_Cali_Grfiins"
+    }, 
+    {
+      "id": 418, 
+      "pos": 308, 
+      "score": 175, 
+      "team": "The Dream Team"
+    }, 
+    {
+      "id": 271, 
+      "pos": 309, 
+      "score": 175, 
+      "team": "The Kings"
+    }, 
+    {
+      "id": 521, 
+      "pos": 310, 
+      "score": 175, 
+      "team": "forenSick"
+    }, 
+    {
+      "id": 332, 
+      "pos": 311, 
+      "score": 175, 
+      "team": "Nextwave"
+    }, 
+    {
+      "id": 313, 
+      "pos": 312, 
+      "score": 175, 
+      "team": "MJM"
+    }, 
+    {
+      "id": 532, 
+      "pos": 313, 
+      "score": 175, 
+      "team": "Team Korea"
+    }, 
+    {
+      "id": 531, 
+      "pos": 314, 
+      "score": 175, 
+      "team": "VMZ"
+    }, 
+    {
+      "id": 529, 
+      "pos": 315, 
+      "score": 175, 
+      "team": "IronMannie"
+    }, 
+    {
+      "id": 533, 
+      "pos": 316, 
+      "score": 175, 
+      "team": "Los Mexicanos"
+    }, 
+    {
+      "id": 430, 
+      "pos": 317, 
+      "score": 175, 
+      "team": "AwarenessForDysautonomiaV2"
+    }, 
+    {
+      "id": 547, 
+      "pos": 318, 
+      "score": 175, 
+      "team": "[Blank]"
+    }, 
+    {
+      "id": 199, 
+      "pos": 319, 
+      "score": 175, 
+      "team": "Byteme"
+    }, 
+    {
+      "id": 558, 
+      "pos": 320, 
+      "score": 175, 
+      "team": "Warriors "
+    }, 
+    {
+      "id": 205, 
+      "pos": 321, 
+      "score": 175, 
+      "team": "The Waldorfians"
+    }, 
+    {
+      "id": 413, 
+      "pos": 322, 
+      "score": 150, 
+      "team": "RUNNING IS LYFE"
+    }, 
+    {
+      "id": 177, 
+      "pos": 323, 
+      "score": 125, 
+      "team": "jpaglier"
+    }, 
+    {
+      "id": 191, 
+      "pos": 324, 
+      "score": 125, 
+      "team": "MountainDewd"
+    }, 
+    {
+      "id": 153, 
+      "pos": 325, 
+      "score": 125, 
+      "team": "Burrito squad"
+    }, 
+    {
+      "id": 79, 
+      "pos": 326, 
+      "score": 125, 
+      "team": "CCA Comp Sci"
+    }, 
+    {
+      "id": 417, 
+      "pos": 327, 
+      "score": 125, 
+      "team": "DunnoCanIChangeLater?"
+    }, 
+    {
+      "id": 455, 
+      "pos": 328, 
+      "score": 125, 
+      "team": "I Don't Have A Team Name"
+    }, 
+    {
+      "id": 468, 
+      "pos": 329, 
+      "score": 125, 
+      "team": "Monarchs"
+    }, 
+    {
+      "id": 537, 
+      "pos": 330, 
+      "score": 125, 
+      "team": "sarredondo"
+    }, 
+    {
+      "id": 538, 
+      "pos": 331, 
+      "score": 125, 
+      "team": "ESMERALDA"
+    }, 
+    {
+      "id": 93, 
+      "pos": 332, 
+      "score": 100, 
+      "team": "Byte me"
+    }, 
+    {
+      "id": 146, 
+      "pos": 333, 
+      "score": 100, 
+      "team": "cheezCakes"
+    }, 
+    {
+      "id": 172, 
+      "pos": 334, 
+      "score": 100, 
+      "team": "PHS Precalculaas"
+    }, 
+    {
+      "id": 216, 
+      "pos": 335, 
+      "score": 100, 
+      "team": "\u00af\\_(toasty)_/\u00af"
+    }, 
+    {
+      "id": 142, 
+      "pos": 336, 
+      "score": 100, 
+      "team": "Rice"
+    }, 
+    {
+      "id": 38, 
+      "pos": 337, 
+      "score": 100, 
+      "team": "Dare to Dream "
+    }, 
+    {
+      "id": 46, 
+      "pos": 338, 
+      "score": 100, 
+      "team": "AK002"
+    }, 
+    {
+      "id": 295, 
+      "pos": 339, 
+      "score": 100, 
+      "team": "404"
+    }, 
+    {
+      "id": 210, 
+      "pos": 340, 
+      "score": 100, 
+      "team": "PHS Blank"
+    }, 
+    {
+      "id": 333, 
+      "pos": 341, 
+      "score": 100, 
+      "team": "njdevils"
+    }, 
+    {
+      "id": 349, 
+      "pos": 342, 
+      "score": 100, 
+      "team": "Horns and Hooves"
+    }, 
+    {
+      "id": 355, 
+      "pos": 343, 
+      "score": 100, 
+      "team": "Cabin2"
+    }, 
+    {
+      "id": 43, 
+      "pos": 344, 
+      "score": 100, 
+      "team": "AK001"
+    }, 
+    {
+      "id": 390, 
+      "pos": 345, 
+      "score": 100, 
+      "team": "QED"
+    }, 
+    {
+      "id": 86, 
+      "pos": 346, 
+      "score": 100, 
+      "team": "UAE protecters"
+    }, 
+    {
+      "id": 192, 
+      "pos": 347, 
+      "score": 100, 
+      "team": "The A Team"
+    }, 
+    {
+      "id": 438, 
+      "pos": 348, 
+      "score": 100, 
+      "team": "n3bul4"
+    }, 
+    {
+      "id": 439, 
+      "pos": 349, 
+      "score": 100, 
+      "team": "Git Your Head in the Game"
+    }, 
+    {
+      "id": 445, 
+      "pos": 350, 
+      "score": 100, 
+      "team": "PHSCha0s"
+    }, 
+    {
+      "id": 345, 
+      "pos": 351, 
+      "score": 100, 
+      "team": "JK Good Game"
+    }, 
+    {
+      "id": 459, 
+      "pos": 352, 
+      "score": 100, 
+      "team": "Meme Team Dream Team"
+    }, 
+    {
+      "id": 478, 
+      "pos": 353, 
+      "score": 100, 
+      "team": "YAGAMI"
+    }, 
+    {
+      "id": 469, 
+      "pos": 354, 
+      "score": 100, 
+      "team": "pixelpixies"
+    }, 
+    {
+      "id": 471, 
+      "pos": 355, 
+      "score": 100, 
+      "team": "sshannon"
+    }, 
+    {
+      "id": 467, 
+      "pos": 356, 
+      "score": 100, 
+      "team": "KAKA KIRITOES"
+    }, 
+    {
+      "id": 504, 
+      "pos": 357, 
+      "score": 100, 
+      "team": "00000001"
+    }, 
+    {
+      "id": 217, 
+      "pos": 358, 
+      "score": 100, 
+      "team": "Knickerbockers"
+    }, 
+    {
+      "id": 507, 
+      "pos": 359, 
+      "score": 100, 
+      "team": "not applicable"
+    }, 
+    {
+      "id": 475, 
+      "pos": 360, 
+      "score": 100, 
+      "team": "Cool\u2122"
+    }, 
+    {
+      "id": 520, 
+      "pos": 361, 
+      "score": 100, 
+      "team": "The 3 Musketeers"
+    }, 
+    {
+      "id": 519, 
+      "pos": 362, 
+      "score": 100, 
+      "team": "The Three Musketeers"
+    }, 
+    {
+      "id": 515, 
+      "pos": 363, 
+      "score": 100, 
+      "team": "Kweenerreida"
+    }, 
+    {
+      "id": 379, 
+      "pos": 364, 
+      "score": 100, 
+      "team": "Do More, Suck Less"
+    }, 
+    {
+      "id": 314, 
+      "pos": 365, 
+      "score": 100, 
+      "team": "H.S.A."
+    }, 
+    {
+      "id": 524, 
+      "pos": 366, 
+      "score": 100, 
+      "team": "Heatran5400"
+    }, 
+    {
+      "id": 190, 
+      "pos": 367, 
+      "score": 75, 
+      "team": "RITPWN"
+    }, 
+    {
+      "id": 232, 
+      "pos": 368, 
+      "score": 75, 
+      "team": "bmtd"
+    }, 
+    {
+      "id": 255, 
+      "pos": 369, 
+      "score": 75, 
+      "team": "Bioshock"
+    }, 
+    {
+      "id": 296, 
+      "pos": 370, 
+      "score": 75, 
+      "team": "lonewolf"
+    }, 
+    {
+      "id": 317, 
+      "pos": 371, 
+      "score": 75, 
+      "team": "testerino"
+    }, 
+    {
+      "id": 368, 
+      "pos": 372, 
+      "score": 75, 
+      "team": "asd"
+    }, 
+    {
+      "id": 415, 
+      "pos": 373, 
+      "score": 75, 
+      "team": "JellyMellon"
+    }, 
+    {
+      "id": 425, 
+      "pos": 374, 
+      "score": 75, 
+      "team": "Low Orbital GaBeN Cannon"
+    }, 
+    {
+      "id": 416, 
+      "pos": 375, 
+      "score": 75, 
+      "team": "newnood"
+    }, 
+    {
+      "id": 540, 
+      "pos": 376, 
+      "score": 75, 
+      "team": "Staub"
+    }, 
+    {
+      "id": 138, 
+      "pos": 377, 
+      "score": 50, 
+      "team": "cryptic coder"
+    }, 
+    {
+      "id": 283, 
+      "pos": 378, 
+      "score": 50, 
+      "team": "DJ"
+    }, 
+    {
+      "id": 307, 
+      "pos": 379, 
+      "score": 50, 
+      "team": "The Flying Titans"
+    }, 
+    {
+      "id": 348, 
+      "pos": 380, 
+      "score": 50, 
+      "team": "TableFlippers"
+    }, 
+    {
+      "id": 367, 
+      "pos": 381, 
+      "score": 50, 
+      "team": "csi cyber"
+    }, 
+    {
+      "id": 372, 
+      "pos": 382, 
+      "score": 50, 
+      "team": "PHS Weebs"
+    }, 
+    {
+      "id": 380, 
+      "pos": 383, 
+      "score": 50, 
+      "team": "HowToCompSci"
+    }, 
+    {
+      "id": 404, 
+      "pos": 384, 
+      "score": 50, 
+      "team": "KimchiSquad"
+    }, 
+    {
+      "id": 408, 
+      "pos": 385, 
+      "score": 50, 
+      "team": "KimchSquad"
+    }, 
+    {
+      "id": 409, 
+      "pos": 386, 
+      "score": 50, 
+      "team": "EdwardIsStupid"
+    }, 
+    {
+      "id": 195, 
+      "pos": 387, 
+      "score": 50, 
+      "team": "Sandra Barnett"
+    }, 
+    {
+      "id": 433, 
+      "pos": 388, 
+      "score": 50, 
+      "team": "CiTi Productions"
+    }, 
+    {
+      "id": 444, 
+      "pos": 389, 
+      "score": 50, 
+      "team": "good work"
+    }, 
+    {
+      "id": 449, 
+      "pos": 390, 
+      "score": 50, 
+      "team": "Solvent Solvers"
+    }, 
+    {
+      "id": 452, 
+      "pos": 391, 
+      "score": 50, 
+      "team": "mystery X"
+    }, 
+    {
+      "id": 458, 
+      "pos": 392, 
+      "score": 50, 
+      "team": "E.S.D"
+    }, 
+    {
+      "id": 462, 
+      "pos": 393, 
+      "score": 50, 
+      "team": "ACAI"
+    }, 
+    {
+      "id": 463, 
+      "pos": 394, 
+      "score": 50, 
+      "team": "ELITE SPARTANS "
+    }, 
+    {
+      "id": 472, 
+      "pos": 395, 
+      "score": 50, 
+      "team": "The Big Bang Ballers"
+    }, 
+    {
+      "id": 483, 
+      "pos": 396, 
+      "score": 50, 
+      "team": "..."
+    }, 
+    {
+      "id": 479, 
+      "pos": 397, 
+      "score": 50, 
+      "team": "H2SO4"
+    }, 
+    {
+      "id": 505, 
+      "pos": 398, 
+      "score": 50, 
+      "team": "btrj"
+    }, 
+    {
+      "id": 159, 
+      "pos": 399, 
+      "score": 50, 
+      "team": "Anonymous"
+    }, 
+    {
+      "id": 497, 
+      "pos": 400, 
+      "score": 50, 
+      "team": "pmtt"
+    }, 
+    {
+      "id": 498, 
+      "pos": 401, 
+      "score": 50, 
+      "team": "ksweet"
+    }, 
+    {
+      "id": 496, 
+      "pos": 402, 
+      "score": 50, 
+      "team": "JJML"
+    }, 
+    {
+      "id": 517, 
+      "pos": 403, 
+      "score": 50, 
+      "team": "Afectus Mortem"
+    }, 
+    {
+      "id": 513, 
+      "pos": 404, 
+      "score": 50, 
+      "team": "jasminem"
+    }, 
+    {
+      "id": 514, 
+      "pos": 405, 
+      "score": 50, 
+      "team": "Bruins02"
+    }, 
+    {
+      "id": 526, 
+      "pos": 406, 
+      "score": 50, 
+      "team": "KayleneP"
+    }, 
+    {
+      "id": 534, 
+      "pos": 407, 
+      "score": 50, 
+      "team": "The Trumpeteers"
+    }, 
+    {
+      "id": 543, 
+      "pos": 408, 
+      "score": 50, 
+      "team": "Golden Griffins "
+    }, 
+    {
+      "id": 552, 
+      "pos": 409, 
+      "score": 50, 
+      "team": "Shell-4"
+    }, 
+    {
+      "id": 474, 
+      "pos": 410, 
+      "score": 0, 
+      "team": "Teamm Namee"
+    }, 
+    {
+      "id": 512, 
+      "pos": 411, 
+      "score": 0, 
+      "team": "Arcelia Chavez"
+    }, 
+    {
+      "id": 525, 
+      "pos": 412, 
+      "score": 0, 
+      "team": "Aiko Dimayuga"
+    }, 
+    {
+      "id": 522, 
+      "pos": 413, 
+      "score": 0, 
+      "team": "PCER"
+    }
+  ]
+}
