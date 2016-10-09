@@ -13,8 +13,19 @@
 
 ## Write-up
 
-We have a VMDK file, while is the hard disk image created by VMware for its virtual machines. The VMDK (md5hash: 7a6346913d2f46cabf5120517fff94f6) is like any other image file, and we can mount it using FTK Imager to look at its contents.
+We have a VMDK (**V**irtual **M**achine **D**is**K**) file, which is the hard disk image created by VMware for its virtual machines. We ascertain that the file is intact from our download, and that it indeed is a VMDK.
 
+```bash
+mf@forensics:~/shared/hard_chatting$ md5sum Hard+Chatting.vmdk 
+7a6346913d2f46cabf5120517fff94f6  Hard+Chatting.vmdk
+
+mf@forensics:~/shared/hard_chatting$ file Hard+Chatting.vmdk 
+Hard+Chatting.vmdk: VMware4 disk image
+```
+
+![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/md5hash.PNG "Image of hash verification")
+
+A VMDK is like any other image file that we can mount using FTK Imager to look at its contents. We open up FTK imager
 [TODO: ADD IMAGE OF MOUNTED VMDK]
 
 We see an interesting file, `.gdb_history`, in ???'s directory. This file isn't created unless `gdb`, the GNU Debugger, has been run at least once. So, we know that someone must have run ``gdb`` on this computer. Let's look at the contents of the file with FTK Imager.
