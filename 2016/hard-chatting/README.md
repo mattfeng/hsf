@@ -27,7 +27,11 @@ Hard+Chatting.vmdk: VMware4 disk image
 
 A VMDK is like any other image file that we can mount using FTK Imager to look at its contents. We open up FTK imager and mount `Hard+Chatting.vmdk`.
 
-[TODO: ADD IMAGE OF MOUNTED VMDK]
+![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/ftk_imager_1.PNG "Mounting 1")
+![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/ftk_imager_2.PNG "Mounting 2")
+![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/ftk_imager_3.PNG "Mounting 3")
+
+Partition 1 is the ext4 partition of the hard drive, which holds most of the important information. We begin our analysis here.
 
 We see an interesting file, `.gdb_history`, in mike's home directory (`/home/mike/`). This file isn't created unless `gdb`, the GNU Debugger, has been run at least once. So, we know that someone must have run `gdb` on this computer at least once. Let's look at the contents of the file with FTK Imager.
 
@@ -36,6 +40,9 @@ We see an interesting file, `.gdb_history`, in mike's home directory (`/home/mik
 Note that the header of the file contains the letters `ELF`; this suggests that `.gdb_history` isn't really a history file, but a binary masquerading as a benign history file.
 
 `.gdb_history` is a binary file; we can't do much analysis of binary files in FTK Imager, so we will export the file and explore it more in Kali Linux.
+
+![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/export_file.png "Export File 1")
+![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/export_file_2.PNG "Export File 2")
 
 When doing analysis of a binary, we always want to look at the following information at the very beginning:
 
