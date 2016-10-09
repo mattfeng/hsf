@@ -430,14 +430,14 @@ Alternatively, if we did not see the channel name in the output of `strings` (bu
 
 First we connect to the server, without any default channels.
 
-![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/connecting_2.PNG, "Connecting, no channel")
-![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/connected_to_server_no_channel.PNG, "Connected, no channel")
+![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/connecting_2.PNG "Connecting, no channel")
+![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/connected_to_server_no_channel.PNG "Connected, no channel")
 
 I recognize `avolition` as a (former) griefing team, which is surprising to see in the HSF challenges (but, I do know that ajvpot had connections with aVo, so perhaps it is not so surprising).
 
 Then we run `/list`, and look at the list of channels.
 
-![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/output_of_list.PNG, "Output of List")
+![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/output_of_list.PNG "Output of List")
 
 The flag is visible, in the topic of channel `#9sdf3o3j23`.
 
