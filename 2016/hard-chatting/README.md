@@ -418,6 +418,14 @@ socket@@GLIBC_2.2.5
 killall
 ```
 
+The output of `strings` holds some valuable information.
+
+1. The binary connects to some IRC server, as evidenced in lines such as `NOTICE %s :IRC <command> = Sends this command to the server`
+2. The binary seems to be the malicious vector by which an IRC Botnet operates. The binary receives commands such as `TSUNAMI`, `UDP`, `PAN`, and `SPOOFS`, which all act maliciously (the first three send out DoS attacks, and the last fakes source addresses for the first three attacks). These are the attacks that are referenced in the problem statement.
+3. The IRC server that the client is connecting to is `irc.rogueterminal.com`.
+4. The channel the client is communicating through is `#9sdf3o3j23`.
+5. There appears to be some kind of password, `h@rdch@tz`. Maybe this is the password that Mike cannot remember (although the prompt seems to indicate he forgot the password to his computer).
+  
 We try connecting to `irc.rogueterminal.com` on channel `#9sdf3o3j23` using KiwiIRC, the WebIRC client.
 
 ![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/connecting_1.PNG "Connecting to IRC")
