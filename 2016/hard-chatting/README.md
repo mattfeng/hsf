@@ -460,4 +460,4 @@ The flag is visible, in the topic of channel `#9sdf3o3j23`.
 * https://en.wikipedia.org/wiki/Botnet
 
 ### Other write-ups
-* (none yet)
+* Video Writeup by `farm fresh boneless skinless chicken finger`: https://youtu.be/KaFEcLk-chc
