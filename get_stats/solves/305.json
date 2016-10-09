@@ -1,0 +1,44 @@
+{
+  "solves": [
+    {
+      "category": "Trivia", 
+      "chal": "If only I could remember...", 
+      "chalid": 3, 
+      "team": 305, 
+      "time": 1475177767, 
+      "value": 50
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Legit Check", 
+      "chalid": 22, 
+      "team": 305, 
+      "time": 1475179658, 
+      "value": 75
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "1995 was a good year.", 
+      "chalid": 2, 
+      "team": 305, 
+      "time": 1475263117, 
+      "value": 50
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "totesadorbz", 
+      "chalid": 23, 
+      "team": 305, 
+      "time": 1475698738, 
+      "value": 100
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "It's [not] electric!", 
+      "chalid": 5, 
+      "team": 305, 
+      "time": 1475781192, 
+      "value": 75
+    }
+  ]
+}

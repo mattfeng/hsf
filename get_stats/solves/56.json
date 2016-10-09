@@ -1,0 +1,60 @@
+{
+  "solves": [
+    {
+      "category": "Trivia", 
+      "chal": "If only I could remember...", 
+      "chalid": 3, 
+      "team": 56, 
+      "time": 1475149886, 
+      "value": 50
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "It's [not] electric!", 
+      "chalid": 5, 
+      "team": 56, 
+      "time": 1475150097, 
+      "value": 75
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "1995 was a good year.", 
+      "chalid": 2, 
+      "team": 56, 
+      "time": 1475150207, 
+      "value": 50
+    }, 
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Nothing is what it seems", 
+      "chalid": 9, 
+      "team": 56, 
+      "time": 1475237691, 
+      "value": 100
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Legit Check", 
+      "chalid": 22, 
+      "team": 56, 
+      "time": 1475595553, 
+      "value": 75
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Secret Meeting", 
+      "chalid": 24, 
+      "team": 56, 
+      "time": 1475668568, 
+      "value": 250
+    }, 
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Welp. This is awkward.", 
+      "chalid": 10, 
+      "team": 56, 
+      "time": 1475860472, 
+      "value": 150
+    }
+  ]
+}

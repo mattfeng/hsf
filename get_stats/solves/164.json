@@ -1,0 +1,140 @@
+{
+  "solves": [
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Nothing is what it seems", 
+      "chalid": 9, 
+      "team": 164, 
+      "time": 1475105945, 
+      "value": 100
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Legit Check", 
+      "chalid": 22, 
+      "team": 164, 
+      "time": 1475106012, 
+      "value": 75
+    }, 
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Welp. This is awkward.", 
+      "chalid": 10, 
+      "team": 164, 
+      "time": 1475106637, 
+      "value": 150
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "If only I could remember...", 
+      "chalid": 3, 
+      "team": 164, 
+      "time": 1475108019, 
+      "value": 50
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Music Majors Can Hack Too", 
+      "chalid": 14, 
+      "team": 164, 
+      "time": 1475109003, 
+      "value": 300
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "1995 was a good year.", 
+      "chalid": 2, 
+      "team": 164, 
+      "time": 1475117409, 
+      "value": 50
+    }, 
+    {
+      "category": "Network Forensics", 
+      "chal": "Silly kitty, onions are for...hackers?", 
+      "chalid": 17, 
+      "team": 164, 
+      "time": 1475131001, 
+      "value": 200
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "It's [not] electric!", 
+      "chalid": 5, 
+      "team": 164, 
+      "time": 1475140497, 
+      "value": 75
+    }, 
+    {
+      "category": "Memory Forensics & Malware Analysis", 
+      "chal": "Oh Noes!", 
+      "chalid": 20, 
+      "team": 164, 
+      "time": 1475145654, 
+      "value": 250
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Secret Meeting", 
+      "chalid": 24, 
+      "team": 164, 
+      "time": 1475156776, 
+      "value": 250
+    }, 
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "How To Get Away With Murder", 
+      "chalid": 7, 
+      "team": 164, 
+      "time": 1475185040, 
+      "value": 350
+    }, 
+    {
+      "category": "Network Forensics", 
+      "chal": "IPMI Server Got Owned", 
+      "chalid": 16, 
+      "team": 164, 
+      "time": 1475262600, 
+      "value": 350
+    }, 
+    {
+      "category": "Memory Forensics & Malware Analysis", 
+      "chal": "wut r they doin, Joe?", 
+      "chalid": 13, 
+      "team": 164, 
+      "time": 1475391605, 
+      "value": 300
+    }, 
+    {
+      "category": "Memory Forensics & Malware Analysis", 
+      "chal": "If the log rolls over, we'll all be dead", 
+      "chalid": 21, 
+      "team": 164, 
+      "time": 1475392500, 
+      "value": 200
+    }, 
+    {
+      "category": "Memory Forensics & Malware Analysis", 
+      "chal": "Go Phish!", 
+      "chalid": 12, 
+      "team": 164, 
+      "time": 1475394898, 
+      "value": 300
+    }, 
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Secrets", 
+      "chalid": 8, 
+      "team": 164, 
+      "time": 1475395111, 
+      "value": 250
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "A what?", 
+      "chalid": 1, 
+      "team": 164, 
+      "time": 1475631891, 
+      "value": 0
+    }
+  ]
+}

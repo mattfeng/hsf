@@ -1,0 +1,36 @@
+{
+  "solves": [
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Secrets", 
+      "chalid": 8, 
+      "team": 101, 
+      "time": 1475216422, 
+      "value": 250
+    }, 
+    {
+      "category": "Network Forensics", 
+      "chal": "Silly kitty, onions are for...hackers?", 
+      "chalid": 17, 
+      "team": 101, 
+      "time": 1475377879, 
+      "value": 200
+    }, 
+    {
+      "category": "Memory Forensics & Malware Analysis", 
+      "chal": "If the log rolls over, we'll all be dead", 
+      "chalid": 21, 
+      "team": 101, 
+      "time": 1475622856, 
+      "value": 200
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Secret Meeting", 
+      "chalid": 24, 
+      "team": 101, 
+      "time": 1475858751, 
+      "value": 250
+    }
+  ]
+}

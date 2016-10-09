@@ -1,0 +1,28 @@
+{
+  "solves": [
+    {
+      "category": "Trivia", 
+      "chal": "If only I could remember...", 
+      "chalid": 3, 
+      "team": 298, 
+      "time": 1475178960, 
+      "value": 50
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "1995 was a good year.", 
+      "chalid": 2, 
+      "team": 298, 
+      "time": 1475179262, 
+      "value": 50
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Legit Check", 
+      "chalid": 22, 
+      "team": 298, 
+      "time": 1475259832, 
+      "value": 75
+    }
+  ]
+}

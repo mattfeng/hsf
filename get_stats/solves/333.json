@@ -1,0 +1,20 @@
+{
+  "solves": [
+    {
+      "category": "Trivia", 
+      "chal": "1995 was a good year.", 
+      "chalid": 2, 
+      "team": 333, 
+      "time": 1475209881, 
+      "value": 50
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "If only I could remember...", 
+      "chalid": 3, 
+      "team": 333, 
+      "time": 1475209984, 
+      "value": 50
+    }
+  ]
+}

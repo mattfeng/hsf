@@ -1,0 +1,12 @@
+{
+  "solves": [
+    {
+      "category": "Memory Forensics & Malware Analysis", 
+      "chal": "Isengard", 
+      "chalid": 19, 
+      "team": 448, 
+      "time": 1475863593, 
+      "value": 500
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "solves": [
+    {
+      "category": "Trivia", 
+      "chal": "Spies say whaaaat?", 
+      "chalid": 4, 
+      "team": 431, 
+      "time": 1475536334, 
+      "value": 75
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "A what?", 
+      "chalid": 1, 
+      "team": 431, 
+      "time": 1475536984, 
+      "value": 0
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "If only I could remember...", 
+      "chalid": 3, 
+      "team": 431, 
+      "time": 1475537069, 
+      "value": 50
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "1995 was a good year.", 
+      "chalid": 2, 
+      "team": 431, 
+      "time": 1475586710, 
+      "value": 50
+    }
+  ]
+}

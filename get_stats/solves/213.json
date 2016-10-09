@@ -1,0 +1,92 @@
+{
+  "solves": [
+    {
+      "category": "Trivia", 
+      "chal": "1995 was a good year.", 
+      "chalid": 2, 
+      "team": 213, 
+      "time": 1475443652, 
+      "value": 50
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "If only I could remember...", 
+      "chalid": 3, 
+      "team": 213, 
+      "time": 1475443925, 
+      "value": 50
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "A what?", 
+      "chalid": 1, 
+      "team": 213, 
+      "time": 1475444046, 
+      "value": 0
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "It's [not] electric!", 
+      "chalid": 5, 
+      "team": 213, 
+      "time": 1475444881, 
+      "value": 75
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Legit Check", 
+      "chalid": 22, 
+      "team": 213, 
+      "time": 1475450743, 
+      "value": 75
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Secret Meeting", 
+      "chalid": 24, 
+      "team": 213, 
+      "time": 1475452066, 
+      "value": 250
+    }, 
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Nothing is what it seems", 
+      "chalid": 9, 
+      "team": 213, 
+      "time": 1475616740, 
+      "value": 100
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "Spies say whaaaat?", 
+      "chalid": 4, 
+      "team": 213, 
+      "time": 1475885284, 
+      "value": 75
+    }, 
+    {
+      "category": "Memory Forensics & Malware Analysis", 
+      "chal": "If the log rolls over, we'll all be dead", 
+      "chalid": 21, 
+      "team": 213, 
+      "time": 1475885942, 
+      "value": 200
+    }, 
+    {
+      "category": "Memory Forensics & Malware Analysis", 
+      "chal": "Go Phish!", 
+      "chalid": 12, 
+      "team": 213, 
+      "time": 1475892817, 
+      "value": 300
+    }, 
+    {
+      "category": "Memory Forensics & Malware Analysis", 
+      "chal": "wut r they doin, Joe?", 
+      "chalid": 13, 
+      "team": 213, 
+      "time": 1475893456, 
+      "value": 300
+    }
+  ]
+}

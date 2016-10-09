@@ -1,0 +1,28 @@
+{
+  "solves": [
+    {
+      "category": "Trivia", 
+      "chal": "1995 was a good year.", 
+      "chalid": 2, 
+      "team": 361, 
+      "time": 1475319265, 
+      "value": 50
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "If only I could remember...", 
+      "chalid": 3, 
+      "team": 361, 
+      "time": 1475319298, 
+      "value": 50
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "It's [not] electric!", 
+      "chalid": 5, 
+      "team": 361, 
+      "time": 1475319438, 
+      "value": 75
+    }
+  ]
+}

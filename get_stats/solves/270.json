@@ -1,0 +1,36 @@
+{
+  "solves": [
+    {
+      "category": "Memory Forensics & Malware Analysis", 
+      "chal": "If the log rolls over, we'll all be dead", 
+      "chalid": 21, 
+      "team": 270, 
+      "time": 1475241994, 
+      "value": 200
+    }, 
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Welp. This is awkward.", 
+      "chalid": 10, 
+      "team": 270, 
+      "time": 1475244048, 
+      "value": 150
+    }, 
+    {
+      "category": "Memory Forensics & Malware Analysis", 
+      "chal": "Go Phish!", 
+      "chalid": 12, 
+      "team": 270, 
+      "time": 1475313292, 
+      "value": 300
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "A what?", 
+      "chalid": 1, 
+      "team": 270, 
+      "time": 1475341983, 
+      "value": 0
+    }
+  ]
+}

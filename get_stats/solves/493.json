@@ -1,0 +1,20 @@
+{
+  "solves": [
+    {
+      "category": "Trivia", 
+      "chal": "A what?", 
+      "chalid": 1, 
+      "team": 493, 
+      "time": 1475705242, 
+      "value": 0
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Secret Meeting", 
+      "chalid": 24, 
+      "team": 493, 
+      "time": 1475706386, 
+      "value": 250
+    }
+  ]
+}

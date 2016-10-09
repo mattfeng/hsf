@@ -1,0 +1,52 @@
+{
+  "solves": [
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Legit Check", 
+      "chalid": 22, 
+      "team": 356, 
+      "time": 1475254978, 
+      "value": 75
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "If only I could remember...", 
+      "chalid": 3, 
+      "team": 356, 
+      "time": 1475328282, 
+      "value": 50
+    }, 
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Nothing is what it seems", 
+      "chalid": 9, 
+      "team": 356, 
+      "time": 1475380104, 
+      "value": 100
+    }, 
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Welp. This is awkward.", 
+      "chalid": 10, 
+      "team": 356, 
+      "time": 1475385511, 
+      "value": 150
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "totesadorbz", 
+      "chalid": 23, 
+      "team": 356, 
+      "time": 1475416035, 
+      "value": 100
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Music Majors Can Hack Too", 
+      "chalid": 14, 
+      "team": 356, 
+      "time": 1475417099, 
+      "value": 300
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "teams": [
+    {
+      "date": "Wed, 28 Sep 2016 22:50:14 GMT", 
+      "id": 10, 
+      "name": "Transcendent Gluten-Free Pudding"
+    }, 
+    {
+      "date": "Wed, 28 Sep 2016 22:53:56 GMT", 
+      "id": 130, 
+      "name": "Shadyside"
+    }, 
+    {
+      "date": "Wed, 28 Sep 2016 23:11:12 GMT", 
+      "id": 71, 
+      "name": "PHS 4ThePlot"
+    }, 
+    {
+      "date": "Wed, 28 Sep 2016 23:45:43 GMT", 
+      "id": 3, 
+      "name": "FailSec"
+    }, 
+    {
+      "date": "Wed, 28 Sep 2016 23:47:41 GMT", 
+      "id": 83, 
+      "name": "The Lemons"
+    }, 
+    {
+      "date": "Wed, 28 Sep 2016 23:50:05 GMT", 
+      "id": 119, 
+      "name": "Omega"
+    }, 
+    {
+      "date": "Wed, 28 Sep 2016 23:55:09 GMT", 
+      "id": 54, 
+      "name": "sean gabaree"
+    }, 
+    {
+      "date": "Wed, 28 Sep 2016 23:57:31 GMT", 
+      "id": 37, 
+      "name": "n0de"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 00:02:33 GMT", 
+      "id": 152, 
+      "name": "Drowning Dolphins"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 00:07:18 GMT", 
+      "id": 92, 
+      "name": "Viewerisland"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 00:08:58 GMT", 
+      "id": 19, 
+      "name": "farm fresh boneless skinless chicken finger"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 00:15:12 GMT", 
+      "id": 24, 
+      "name": "not hanto"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 00:23:13 GMT", 
+      "id": 32, 
+      "name": "PHS Iliad"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 00:35:27 GMT", 
+      "id": 12, 
+      "name": "in/s/ane"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 00:38:30 GMT", 
+      "id": 7, 
+      "name": "Flaming Pandas"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 00:48:11 GMT", 
+      "id": 87, 
+      "name": "Anomalous Materials"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 00:55:37 GMT", 
+      "id": 11, 
+      "name": "Sparkly Purple Harambe"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 01:05:45 GMT", 
+      "id": 124, 
+      "name": "wacode"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 01:52:37 GMT", 
+      "id": 27, 
+      "name": "plsletuswin"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 02:39:10 GMT", 
+      "id": 28, 
+      "name": "LARRY_ALERT"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 03:31:56 GMT", 
+      "id": 40, 
+      "name": "vort3x"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 03:32:01 GMT", 
+      "id": 215, 
+      "name": "abcdef"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 04:10:52 GMT", 
+      "id": 99, 
+      "name": "Mr. Robot"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 04:13:02 GMT", 
+      "id": 200, 
+      "name": "Helix=True"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 06:36:41 GMT", 
+      "id": 164, 
+      "name": "WubbaLubbaDubDub"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 17:56:44 GMT", 
+      "id": 61, 
+      "name": "PHS Triggered for Harambae"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 19:27:50 GMT", 
+      "id": 246, 
+      "name": "Team Harambe"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 19:30:24 GMT", 
+      "id": 98, 
+      "name": "Rob Tracy's"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 22:35:41 GMT", 
+      "id": 21, 
+      "name": "Darkside"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 22:55:58 GMT", 
+      "id": 91, 
+      "name": "NAR"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 23:21:15 GMT", 
+      "id": 30, 
+      "name": "The Deductive Fuzzyhashers 2.0"
+    }, 
+    {
+      "date": "Thu, 29 Sep 2016 23:23:52 GMT", 
+      "id": 132, 
+      "name": "1064CBread"
+    }, 
+    {
+      "date": "Fri, 30 Sep 2016 00:11:22 GMT", 
+      "id": 108, 
+      "name": "TheePotato"
+    }, 
+    {
+      "date": "Fri, 30 Sep 2016 00:32:27 GMT", 
+      "id": 35, 
+      "name": "yuki is eleven :^)"
+    }, 
+    {
+      "date": "Fri, 30 Sep 2016 01:17:18 GMT", 
+      "id": 173, 
+      "name": "0x0bfu5c4t3d"
+    }, 
+    {
+      "date": "Fri, 30 Sep 2016 01:42:54 GMT", 
+      "id": 335, 
+      "name": "this house has bears in it"
+    }, 
+    {
+      "date": "Fri, 30 Sep 2016 17:24:08 GMT", 
+      "id": 145, 
+      "name": "Sh@dyside"
+    }, 
+    {
+      "date": "Fri, 30 Sep 2016 17:29:16 GMT", 
+      "id": 70, 
+      "name": "U+202e"
+    }, 
+    {
+      "date": "Fri, 30 Sep 2016 19:34:17 GMT", 
+      "id": 107, 
+      "name": "Quine"
+    }, 
+    {
+      "date": "Fri, 30 Sep 2016 20:04:47 GMT", 
+      "id": 9, 
+      "name": "King kuang"
+    }, 
+    {
+      "date": "Fri, 30 Sep 2016 21:47:35 GMT", 
+      "id": 149, 
+      "name": "TJHSA1"
+    }, 
+    {
+      "date": "Fri, 30 Sep 2016 22:28:45 GMT", 
+      "id": 126, 
+      "name": "Keyboard Slayers"
+    }, 
+    {
+      "date": "Sat, 01 Oct 2016 01:01:47 GMT", 
+      "id": 121, 
+      "name": "The Blue Screen of Death"
+    }, 
+    {
+      "date": "Sat, 01 Oct 2016 01:16:52 GMT", 
+      "id": 140, 
+      "name": "\u00b5's"
+    }, 
+    {
+      "date": "Sat, 01 Oct 2016 01:34:27 GMT", 
+      "id": 369, 
+      "name": "Polka-dotted Pirate People"
+    }, 
+    {
+      "date": "Sat, 01 Oct 2016 01:38:31 GMT", 
+      "id": 133, 
+      "name": "The Medical Bars"
+    }, 
+    {
+      "date": "Sat, 01 Oct 2016 05:34:54 GMT", 
+      "id": 131, 
+      "name": "5ucc3ss 4c@d3my"
+    }, 
+    {
+      "date": "Sat, 01 Oct 2016 05:46:32 GMT", 
+      "id": 58, 
+      "name": "Pirates Party"
+    }, 
+    {
+      "date": "Sat, 01 Oct 2016 15:20:17 GMT", 
+      "id": 49, 
+      "name": "Pwn Shadows"
+    }, 
+    {
+      "date": "Sat, 01 Oct 2016 18:09:36 GMT", 
+      "id": 275, 
+      "name": "BandhiG"
+    }, 
+    {
+      "date": "Sat, 01 Oct 2016 18:58:48 GMT", 
+      "id": 139, 
+      "name": "MegaMeta"
+    }, 
+    {
+      "date": "Sat, 01 Oct 2016 19:13:12 GMT", 
+      "id": 42, 
+      "name": "Crypto Crew"
+    }, 
+    {
+      "date": "Sat, 01 Oct 2016 19:15:35 GMT", 
+      "id": 22, 
+      "name": "Bass Phishing"
+    }, 
+    {
+      "date": "Sat, 01 Oct 2016 20:55:20 GMT", 
+      "id": 141, 
+      "name": "Pentacontagons"
+    }, 
+    {
+      "date": "Sun, 02 Oct 2016 01:39:53 GMT", 
+      "id": 31, 
+      "name": "hungry hippos"
+    }, 
+    {
+      "date": "Sun, 02 Oct 2016 03:00:25 GMT", 
+      "id": 222, 
+      "name": "No Idea TBH"
+    }, 
+    {
+      "date": "Sun, 02 Oct 2016 03:11:19 GMT", 
+      "id": 101, 
+      "name": "poopsec"
+    }, 
+    {
+      "date": "Sun, 02 Oct 2016 05:17:44 GMT", 
+      "id": 96, 
+      "name": "pinecone"
+    }, 
+    {
+      "date": "Sun, 02 Oct 2016 13:49:03 GMT", 
+      "id": 112, 
+      "name": "The 404s"
+    }, 
+    {
+      "date": "Sun, 02 Oct 2016 22:09:11 GMT", 
+      "id": 196, 
+      "name": "\"; DROP TABLE competitors;"
+    }, 
+    {
+      "date": "Mon, 03 Oct 2016 03:04:11 GMT", 
+      "id": 147, 
+      "name": "(PHS) U+202d"
+    }, 
+    {
+      "date": "Mon, 03 Oct 2016 04:49:45 GMT", 
+      "id": 156, 
+      "name": "rekt"
+    }, 
+    {
+      "date": "Mon, 03 Oct 2016 09:48:12 GMT", 
+      "id": 8, 
+      "name": "Spectres"
+    }, 
+    {
+      "date": "Tue, 04 Oct 2016 15:36:46 GMT", 
+      "id": 269, 
+      "name": "r@m0s"
+    }, 
+    {
+      "date": "Tue, 04 Oct 2016 17:51:45 GMT", 
+      "id": 90, 
+      "name": "Team Rocket"
+    }, 
+    {
+      "date": "Wed, 05 Oct 2016 17:39:02 GMT", 
+      "id": 218, 
+      "name": "SKW"
+    }, 
+    {
+      "date": "Wed, 05 Oct 2016 21:28:38 GMT", 
+      "id": 447, 
+      "name": "jonathan"
+    }, 
+    {
+      "date": "Thu, 06 Oct 2016 23:31:40 GMT", 
+      "id": 309, 
+      "name": "Quacks of Fire"
+    }, 
+    {
+      "date": "Fri, 07 Oct 2016 04:22:46 GMT", 
+      "id": 229, 
+      "name": "Kangzumin"
+    }, 
+    {
+      "date": "Fri, 07 Oct 2016 04:39:03 GMT", 
+      "id": 240, 
+      "name": "DuckMale "
+    }, 
+    {
+      "date": "Fri, 07 Oct 2016 22:08:11 GMT", 
+      "id": 110, 
+      "name": "The Trump Train"
+    }, 
+    {
+      "date": "Fri, 07 Oct 2016 23:23:27 GMT", 
+      "id": 550, 
+      "name": "jackstone"
+    }, 
+    {
+      "date": "Fri, 07 Oct 2016 23:24:49 GMT", 
+      "id": 484, 
+      "name": "th3jackers"
+    }, 
+    {
+      "date": "Sat, 08 Oct 2016 00:15:10 GMT", 
+      "id": 428, 
+      "name": "Team Leaf"
+    }, 
+    {
+      "date": "Sat, 08 Oct 2016 01:56:46 GMT", 
+      "id": 103, 
+      "name": "SegFault"
+    }, 
+    {
+      "date": "Sat, 08 Oct 2016 12:46:18 GMT", 
+      "id": 80, 
+      "name": "Diablo"
+    }, 
+    {
+      "date": "Sat, 08 Oct 2016 15:26:19 GMT", 
+      "id": 13, 
+      "name": "Bohemians"
+    }
+  ]
+}

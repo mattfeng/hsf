@@ -1,0 +1,28 @@
+{
+  "solves": [
+    {
+      "category": "Trivia", 
+      "chal": "If only I could remember...", 
+      "chalid": 3, 
+      "team": 471, 
+      "time": 1475700055, 
+      "value": 50
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "A what?", 
+      "chalid": 1, 
+      "team": 471, 
+      "time": 1475700084, 
+      "value": 0
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "1995 was a good year.", 
+      "chalid": 2, 
+      "team": 471, 
+      "time": 1475700728, 
+      "value": 50
+    }
+  ]
+}

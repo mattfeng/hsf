@@ -1,0 +1,36 @@
+{
+  "solves": [
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Nothing is what it seems", 
+      "chalid": 9, 
+      "team": 235, 
+      "time": 1475135182, 
+      "value": 100
+    }, 
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Welp. This is awkward.", 
+      "chalid": 10, 
+      "team": 235, 
+      "time": 1475136544, 
+      "value": 150
+    }, 
+    {
+      "category": "Memory Forensics & Malware Analysis", 
+      "chal": "If the log rolls over, we'll all be dead", 
+      "chalid": 21, 
+      "team": 235, 
+      "time": 1475220654, 
+      "value": 200
+    }, 
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Legit Check", 
+      "chalid": 22, 
+      "team": 235, 
+      "time": 1475566001, 
+      "value": 75
+    }
+  ]
+}

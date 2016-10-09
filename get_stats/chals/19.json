@@ -1,0 +1,54 @@
+{
+  "teams": [
+    {
+      "date": "Sun, 02 Oct 2016 01:03:06 GMT", 
+      "id": 132, 
+      "name": "1064CBread"
+    }, 
+    {
+      "date": "Sun, 02 Oct 2016 09:25:46 GMT", 
+      "id": 87, 
+      "name": "Anomalous Materials"
+    }, 
+    {
+      "date": "Sun, 02 Oct 2016 12:25:26 GMT", 
+      "id": 10, 
+      "name": "Transcendent Gluten-Free Pudding"
+    }, 
+    {
+      "date": "Sun, 02 Oct 2016 15:09:54 GMT", 
+      "id": 19, 
+      "name": "farm fresh boneless skinless chicken finger"
+    }, 
+    {
+      "date": "Mon, 03 Oct 2016 17:59:41 GMT", 
+      "id": 140, 
+      "name": "\u00b5's"
+    }, 
+    {
+      "date": "Fri, 07 Oct 2016 02:49:45 GMT", 
+      "id": 12, 
+      "name": "in/s/ane"
+    }, 
+    {
+      "date": "Fri, 07 Oct 2016 04:51:00 GMT", 
+      "id": 108, 
+      "name": "TheePotato"
+    }, 
+    {
+      "date": "Fri, 07 Oct 2016 14:23:50 GMT", 
+      "id": 21, 
+      "name": "Darkside"
+    }, 
+    {
+      "date": "Fri, 07 Oct 2016 15:03:28 GMT", 
+      "id": 7, 
+      "name": "Flaming Pandas"
+    }, 
+    {
+      "date": "Fri, 07 Oct 2016 18:06:33 GMT", 
+      "id": 448, 
+      "name": "~ a y y l m a o ~ :^)"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "solves": [
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Legit Check", 
+      "chalid": 22, 
+      "team": 158, 
+      "time": 1475102688, 
+      "value": 75
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "It's [not] electric!", 
+      "chalid": 5, 
+      "team": 158, 
+      "time": 1475189046, 
+      "value": 75
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "1995 was a good year.", 
+      "chalid": 2, 
+      "team": 158, 
+      "time": 1475189381, 
+      "value": 50
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "If only I could remember...", 
+      "chalid": 3, 
+      "team": 158, 
+      "time": 1475189680, 
+      "value": 50
+    }
+  ]
+}

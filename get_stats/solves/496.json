@@ -1,0 +1,20 @@
+{
+  "solves": [
+    {
+      "category": "Trivia", 
+      "chal": "A what?", 
+      "chalid": 1, 
+      "team": 496, 
+      "time": 1475705924, 
+      "value": 0
+    }, 
+    {
+      "category": "Trivia", 
+      "chal": "If only I could remember...", 
+      "chalid": 3, 
+      "team": 496, 
+      "time": 1475706407, 
+      "value": 50
+    }
+  ]
+}

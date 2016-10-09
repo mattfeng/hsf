@@ -1,0 +1,20 @@
+{
+  "solves": [
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Legit Check", 
+      "chalid": 22, 
+      "team": 208, 
+      "time": 1475114969, 
+      "value": 75
+    }, 
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Nothing is what it seems", 
+      "chalid": 9, 
+      "team": 208, 
+      "time": 1475118962, 
+      "value": 100
+    }
+  ]
+}

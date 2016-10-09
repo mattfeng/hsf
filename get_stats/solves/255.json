@@ -1,0 +1,12 @@
+{
+  "solves": [
+    {
+      "category": "Steganography & Image Forensics", 
+      "chal": "Legit Check", 
+      "chalid": 22, 
+      "team": 255, 
+      "time": 1475154806, 
+      "value": 75
+    }
+  ]
+}

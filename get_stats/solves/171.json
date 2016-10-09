@@ -1,0 +1,20 @@
+{
+  "solves": [
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Nothing is what it seems", 
+      "chalid": 9, 
+      "team": 171, 
+      "time": 1475105395, 
+      "value": 100
+    }, 
+    {
+      "category": "File & Disk Forensics", 
+      "chal": "Secrets", 
+      "chalid": 8, 
+      "team": 171, 
+      "time": 1475106645, 
+      "value": 250
+    }
+  ]
+}
