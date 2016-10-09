@@ -25,25 +25,26 @@ Hard+Chatting.vmdk: VMware4 disk image
 
 ![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/md5hash.PNG "Image of hash verification")
 
-A VMDK is like any other image file that we can mount using FTK Imager to look at its contents. We open up FTK imager
+A VMDK is like any other image file that we can mount using FTK Imager to look at its contents. We open up FTK imager and mount `Hard+Chatting.vmdk`.
+
 [TODO: ADD IMAGE OF MOUNTED VMDK]
 
-We see an interesting file, `.gdb_history`, in ???'s directory. This file isn't created unless `gdb`, the GNU Debugger, has been run at least once. So, we know that someone must have run ``gdb`` on this computer. Let's look at the contents of the file with FTK Imager.
+We see an interesting file, `.gdb_history`, in mike's home directory (`/home/mike/`). This file isn't created unless `gdb`, the GNU Debugger, has been run at least once. So, we know that someone must have run `gdb` on this computer at least once. Let's look at the contents of the file with FTK Imager.
 
-[TODO: ADD IMAGE OF FTK IMAGER WITH .gdb_history FILE IN VIEW]
+![alt text] (https://github.com/mattfeng/hsf/blob/master/2016/hard-chatting/hard-chatting-imgs/gdb_history_suspicious.PNG ".gdb_history")
 
-It's a binary file; we can't do much analysis of binary files in FTK Imager, so we will export the file and explore it more in Kali Linux.
+Note that the header of the file contains the letters `ELF`; this suggests that `.gdb_history` isn't really a history file, but a binary masquerading as a benign history file.
+
+`.gdb_history` is a binary file; we can't do much analysis of binary files in FTK Imager, so we will export the file and explore it more in Kali Linux.
 
 When doing analysis of a binary, we always want to look at the following information at the very beginning:
 
   1. `file`: filetype and header information.
   2. `strings`: ASCII strings of length 4 or more in the file.
-  3. `hexdump -C`: hexadecimal dump of the file contents; you should use a hex editor here.
+
+(There are other things that you will want to look at, such as `checksec` and `readelf`, but those are not necessary for this challenge)
 
 Let's see what each one gives us:
-```bash
-
-```
 
 ```bash
 
