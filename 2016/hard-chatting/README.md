@@ -11,6 +11,10 @@
 >
 > Challenge by Gus Naughton
 
+## Video Writeup
+
+* <h3> https://youtu.be/KaFEcLk-chc </h3>
+
 ## Write-up
 
 We have a VMDK (**V**irtual **M**achine **D**is**K**) file, which is the hard disk image created by VMware for its virtual machines. We ascertain that the file is intact from our download, and that it indeed is a VMDK.
