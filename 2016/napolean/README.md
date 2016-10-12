@@ -2,7 +2,7 @@
 
 **Category:** File & Disk Forensics
 **Points:** 400
-**Solves:** ?
+**Solves:** 13
 **Description:**
 
 > We (an unnamed hospital) hired an intern that we thought would be great because he won some high school hacker challenge.
