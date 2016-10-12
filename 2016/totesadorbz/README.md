@@ -2,7 +2,7 @@
 
 **Category:** Steganography & Image Forensics
 **Points:** 100
-**Solves:** 84
+**Solves:** 116
 **Description:**
 
 > Hedgehogs are totally adorable, but there's something more than cuteness in this picture.
@@ -28,7 +28,7 @@ flag{H3dgeh0gsAreLikeS00perCute}
 ## Other write-ups and resources
 
 ### Resources
-* [http://steghide.sourceforge.net/] (http://steghide.sourceforge.net/)
+* http://steghide.sourceforge.net/
 
 ### Other write-ups
 * (none yet)
