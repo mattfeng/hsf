@@ -1,8 +1,8 @@
-# CSAW HSF 2016 Prelims:  How To Get Away With Murder
+# CSAW HSF 2016 Prelims: How To Get Away With Murder
 
 **Category:** File and Disk Forensics
 **Points:** 350
-**Solves:** 
+**Solves:** 78
 **Description:**
 
 > What time was the file downloaded to the machine?
