@@ -2,7 +2,7 @@
 
 **Category:** Memory Forensics & Malware Analysis
 **Points:** 500
-**Solves:** 5
+**Solves:** 10
 **Description:**
 
 > Far over the CISC-y instruction mold <br />
