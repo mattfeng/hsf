@@ -111,4 +111,5 @@ $ volatility --plugins=plugins/ -f phishing.vmem --output=csv --profile=Win7SP1x
 * https://pubs.vmware.com/workstation-9/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-A968EF50-BA25-450A-9D1F-F8A9DEE640E7.html
 
 ### Other write-ups
-* (none yet)
+* in/s/ane: https://github.com/in-s-ane/hsf-2016/blob/master/Go-Phish!_300/solution.txt
+* Omega: https://github.com/matthew29tang/HSF-2016/tree/master/Memory-Forensics-and-Malware-Analysis/Go-Phish-300
