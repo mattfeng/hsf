@@ -2,7 +2,7 @@
 
 **Category:** Network Forensics
 **Points:** 300
-**Solves:** ?
+**Solves:** 64
 **Description:**
 
 > We don’t need security on embedded devices anyway, right?
