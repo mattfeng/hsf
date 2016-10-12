@@ -1,5 +1,7 @@
 # CSAW High School Forensics (HSF) Writeups and Documentation
 
+![email: matthew.f.phs@gmail.com] (https://img.shields.io/badge/email-matthew.f.phs%40gmail.com-ff69b4.svg)
+
 ## Team Info
 Team Name: **farm fresh boneless skinless chicken finger** <br />
 School: **Poolesville High School** <br />
@@ -44,6 +46,3 @@ School: **Poolesville High School** <br />
 * [disk/Napolean's (Seer)Sucky Intern] (https://github.com/mattfeng/hsf/tree/master/2016/napolean)
 * [malware/wut r they doin, Joe?] (https://github.com/mattfeng/hsf/tree/master/2016/wut-they-doing)
 * [malware/Go Phish!] (https://github.com/mattfeng/hsf/tree/master/2016/go-phish)
-
-## Contact
-Email: ``matthew.f.phs@gmail.com``
