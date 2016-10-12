@@ -2,7 +2,7 @@
 
 **Category:** Steganography & Image Forensics
 **Points:** 75
-**Solves:** ?
+**Solves:** 246
 **Description:**
 
 > So I bought these online from my go-to sketchy dude named David. He sent me this picture as QA, but I'm not sure if this image was really from him. Can you check?
@@ -97,7 +97,7 @@ Thumbnail Image                 : (Binary data 10884 bytes, use -b option to ext
 ## Other write-ups and resources
 
 ### Resources
-* [] ()
+* http://www.sno.phy.queensu.ca/~phil/exiftool/
 
 ### Other write-ups
 * (none yet)
