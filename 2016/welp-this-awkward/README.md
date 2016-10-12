@@ -2,9 +2,14 @@
 
 **Category:** File and Disk Forensics
 **Points:** 150
-**Solves:** ?
+**Solves:** 128
 **Description:**
 
+> You just received this PDF created by Karoly Ereky, but he died in 1952. What's up with that?
+> 
+> https://s3.amazonaws.com/hsf2016/for-your-eyes-only.pdf
+>
+> Challenge by Antonio Cesar Vargas
 
 ## Write-up
 
