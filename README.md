@@ -36,13 +36,14 @@ School: **Poolesville High School** <br />
 * [disk/How To Get Away With Murder] (https://github.com/mattfeng/hsf/tree/master/2016/get-away-with-murder)
 * [disk/Welp. This is awkward.] (https://github.com/mattfeng/hsf/tree/master/2016/welp-this-awkward)
 
-## Missing Write-ups
+#### Trivia
+* [trivia/1995 was a good year.] (https://github.com/mattfeng/hsf/tree/master/2016/trivia)
+* [trivia/A what?] (https://github.com/mattfeng/hsf/tree/master/2016/trivia)
+* [trivia/If only I could remember...] (https://github.com/mattfeng/hsf/tree/master/2016/trivia)
+* [trivia/It's [not] electric!] (https://github.com/mattfeng/hsf/tree/master/2016/trivia)
+* [trivia/Spies say whaaaat?] (https://github.com/mattfeng/hsf/tree/master/2016/trivia)
 
-* trivia/1995 was a good year.
-* trivia/A what?
-* trivia/If only I could remember...
-* trivia/It's [not] electric!
-* trivia/Spies say whaaaat? 
+## Missing Write-ups
 * [disk/Napolean's (Seer)Sucky Intern] (https://github.com/mattfeng/hsf/tree/master/2016/napolean)
 * [malware/wut r they doin, Joe?] (https://github.com/mattfeng/hsf/tree/master/2016/wut-they-doing)
 * [malware/Go Phish!] (https://github.com/mattfeng/hsf/tree/master/2016/go-phish)
