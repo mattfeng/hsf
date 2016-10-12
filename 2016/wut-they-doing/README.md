@@ -15,9 +15,19 @@
 
 ## Write-up
 
+Download the file and extract. Run `strings` and `grep` for the relevant executable.
+
+```bash
+$ strings WinXPSP3x86.mem | grep '\\r.exe'
+c:\windows\system32\1076\r.exe a -r -hps0methingcl3av0r ev.rar desktop\evidence\logs
+c:\windows\system32\1076\r.exe a -r -hps0methingcl3av0r ev.rar desktop\evidence\logs
+c:\windows\system32\1076\r.exe a -r -hps0methingcl3av0r ev.rar desktop\evidence\logs
+c:\windows\system32\1076\r.exe a -r -hps0methingcl3av0r ev.rar desktop\evidence\logs
+```
 
 ### Flag
 
+`c:\windows\system32\1076\r.exe`
 
 ## Other write-ups and resources
 
