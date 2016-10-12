@@ -28,8 +28,6 @@ School: **Poolesville High School** <br />
 #### Steganography and Image Forensics
 * [stego/Legit Check] (https://github.com/mattfeng/hsf/tree/master/2016/legit-check)
 * [stego/Music Majors Can Hack Too] (https://github.com/mattfeng/hsf/tree/master/2016/music-majors-hack)
-* [stego/Secret Meeting] (https://github.com/mattfeng/hsf/tree/master/2016/secret-meeting)
-* [stego/Secrets] (https://github.com/mattfeng/hsf/tree/master/2016/secrets)
 * [stego/totesadorbz] (https://github.com/mattfeng/hsf/tree/master/2016/totesadorbz)
 
 #### File and Disk Forensics
@@ -47,3 +45,5 @@ School: **Poolesville High School** <br />
 ## Missing Write-ups
 * [disk/Napolean's (Seer)Sucky Intern] (https://github.com/mattfeng/hsf/tree/master/2016/napolean)
 * [malware/wut r they doin, Joe?] (https://github.com/mattfeng/hsf/tree/master/2016/wut-they-doing)
+* [stego/Secret Meeting] (https://github.com/mattfeng/hsf/tree/master/2016/secret-meeting)
+* [stego/Secrets] (https://github.com/mattfeng/hsf/tree/master/2016/secrets)
