@@ -2,7 +2,7 @@
 
 **Category:** File and Disk Forensics
 **Points:** 100
-**Solves:** 168
+**Solves:** 170
 **Description:**
 
 > Don't let your eyes be fooled by what they cannot see...or execute ;)
