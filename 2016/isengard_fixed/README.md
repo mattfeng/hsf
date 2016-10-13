@@ -319,23 +319,6 @@ I decided to try solving the challenge with Intel's "Pin" tool, which can be fou
 
 One of the features Pin offers is its ability to count the number of instructions executed for a running process. The source code of this instruction count program is provided in [inscount0.cpp] (inscount0.cpp). ``inscount0.cpp`` counts the number of instructions executed, and, when the program exits, outputs that number into a file called ``inscount.out``.
 
-To get ``inscount0.cpp`` to run with Pin, do the following:
-
-Run the following in the ManualExamples directory:
-```bash
-$ make obj-ia32/inscount0.so TARGET=ia32
-```
-Then run the following command to count instructions (from the ManualExamples folder)
-```bash
-$ ../../../../pin -t inscount0.so -- ~/hsf/2016/isengard_fixed/isengard
-```
-
-Since ``isengard`` takes in input from the user, we have to redirect input from a file to the binary.
-
-```bash
-$ ../../../../pin -t inscount0.so -- ~/hsf/2016/isengard_fixed/isengard < input
-```
-
 The reason Pin's instruction count tool is helpful is that it can be used to launch a **side-channel attack**. Most string comparison checks are executed character by character. If there is a mismatch in one of the characters, then the comparison ends there and the program continues (or exits). However, because of this premature breaking, there will be fewer instructions executed when the strings do not match. By counting the number of instructions executed, and checking when that number increases, we can determine what the correct input is.
 
 Here is some code to do that:
