@@ -465,3 +465,6 @@ The flag is visible, in the topic of channel `#9sdf3o3j23`.
 
 ### Other write-ups
 * Video writeup by `farm fresh boneless skinless chicken finger`: https://youtu.be/KaFEcLk-chc
+* https://github.com/ctf-n0de/CSAWHSF-2016-Writeups/blob/master/Hard-Chatting-n0de.pdf
+* https://github.com/in-s-ane/hsf-2016/blob/master/Hard-Chatting_400/Hard%20Chatting%20Write-up.pdf
+* https://github.com/MegaAbsol/CSAW-HSF-Prelims-2016/blob/master/Hard_Chatting-400/hardchatting_final.pdf
